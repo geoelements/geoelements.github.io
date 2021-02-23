@@ -1,0 +1,99 @@
+# Academics
+- name: Krishna Kumar 
+  role: academic
+  position: Assistant Professor
+  uni: UT Austin
+  url: /team/krishna-kumar
+  image: krishna.jpg
+  email: krishnak@utexas.edu
+  pubname: "Kumar, K."
+  area: 
+    - DEM    
+    - FEM
+    - LBM
+    - LEM
+    - MPM
+
+# Researchers
+
+# PhD Students
+- name: Thiago Ordonho Araujo
+  role: student
+  position: PhD candidate
+  uni: UT Austin
+  url: /team/thiago-ordonho-araujo
+  image: thiago.jpg
+  email: thiago.araujo@utexas.edu
+  pubname: 
+  area: MPM
+
+- name: Reihaneh Hosseini
+  role: student
+  position: PhD candidate
+  uni: UT Austin
+  url: /team/reihaneh-hosseini
+  image: rei.jpg
+  email: reihos@utexas.edu
+  pubname: "Hosseini, R."
+  area:
+    - DEM    
+    - LBM
+
+- name: Brent Sordo
+  role: student
+  position: PhD candidate
+  uni: UT Austin
+  url: /team/brent-sordo
+  image: question.png
+  email: bsordo@utexas.edu
+  pubname: 
+  area: MPM
+
+- name: Chihun Sung
+  role: student
+  position: PhD candidate
+  uni: UT Austin
+  url: /team/chihun-sung
+  image: question.png
+  email: csung@utexas.edu
+  pubname:
+  area: MPM
+
+- name: Joseph Vantassel
+  role: student
+  position: PhD candidate
+  uni: UT Austin
+  url: /team/joseph-vantassel
+  image: question.png
+  email: jpvantassel@utexas.edu
+  pubname: "Vantassel, J. P."
+  area: ML
+
+- name: Qiuyu Wang
+  role: student
+  position: PhD candidate
+  uni: UT Austin
+  url: /team/qiuyu-wang
+  image: qiuyu.jpg
+  email: wangqiuyu@utexas.edu
+  pubname: "Wang, Q."
+  area:
+    - DEM    
+    - LBM
+
+
+#Masters students
+
+- name: Ugur Arslan
+  role: masters
+  position: Masters
+  uni: UT Austin
+  url: /team/ugur-arslan
+  image: question.png
+  email: unknown@utexas.edu
+  year: 2020
+  area: Geophysics
+
+# Visitors
+
+

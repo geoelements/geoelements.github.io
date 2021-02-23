@@ -1,0 +1,59 @@
+---
+layout: default
+---
+
+<main id="main" class="main-content" aria-label="Content">
+  <article class="h-entry">
+    {% include page-image.html %}
+    <div class="page-wrapper">
+      <header class="page-header">
+        {% assign title = page.title | markdownify | strip_html %}
+        {% if page.link %}
+        <h1 id="page-title" class="page-title p-name"><a href="{{ page.link }}">{{ title }} <span
+              class="link-arrow">&rarr;</span></a></h1>
+        {% else %}
+        <h1 id="page-title" class="page-title p-name">{{ title }}</h1>
+        {% endif %}
+      </header>
+
+      {% for member in site.data.members %}
+        {% if member.name == page.membername %}
+          {% assign email = member.email %}
+          {% assign image = member.image %}
+          {% assign pubname = member.pubname %}
+        {% endif %}
+      {% endfor %}
+      <div class="team">
+        <div class="user">
+          <div class="userimg" style="background-image:url('{{ site.baseurl }}/images/geoelements/team/{{ image }}')">
+          </div>
+          <h4>{{ page.membername }}</h4>	
+          <a href="mailto:{{ email }}">{{ email }}</a>
+        </div>
+      </div>
+      <div class="page-content">
+        <div class="e-content">
+          {{ content }}
+          <br/>
+          <h2 class="page-publications">Publications</h2>
+          {% assign postsbyAuthors = site.posts | where_exp: "post", "post.categories contains 'publications'" |
+          group_by_exp:
+          'posts', 'posts.authors' %}
+
+          {% for postauthors in postsbyAuthors %}
+            {% if postauthors.name contains pubname %}
+              <div class="entries-{{ page.entries_layout | default: 'list' }}">
+                {% for entry in postauthors.items %}
+                  {% include pub-entry.html %}
+                {% endfor %}
+              </div>
+              <a href="#page-title" class="back-to-top">{{ site.data.text[site.locale].back_to_top | default: 'Back to Top' }}
+                  &uarr;</a>
+            {% endif %}
+          {% endfor %}
+        </div>
+        {% include page-pagination.html %}
+      </div>
+    </div>
+  </article>
+</main>

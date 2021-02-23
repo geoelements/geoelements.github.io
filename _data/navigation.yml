@@ -1,0 +1,17 @@
+# Site navigation links
+- title: Research
+  url: /research/
+- title: Projects
+  url: /projects/
+- title: Members
+  url: /team/
+- title: Publications
+  url: /publications/
+- title: Teaching
+  url: /courses/
+- title: News
+  url: /news/
+- title: Blog
+  url: /blog/
+- title: Search
+  url: /search/
