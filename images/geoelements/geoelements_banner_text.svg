@@ -156,7 +156,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.87815866"
-     inkscape:cx="621.19903"
+     inkscape:cx="771.32821"
      inkscape:cy="242.79364"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
@@ -199,7 +199,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -670,7 +670,7 @@
        r="9.0298471" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:47.5px;line-height:0%;font-family:Times;-inkscape-font-specification:Times;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:42.5px;line-height:0%;font-family:Times;-inkscape-font-specification:Times;text-align:start;letter-spacing:0px;word-spacing:0px;text-anchor:start;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
        x="-34.189014"
        y="290.21582"
        id="text4302"><tspan
@@ -678,12 +678,12 @@
          id="tspan4304"
          x="-34.189014"
          y="290.21582"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:47.5px;line-height:1.25;font-family:MathJax_Main;-inkscape-font-specification:'MathJax_Main Bold';fill:#ffffff">Geoelements</tspan><tspan
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:42.5px;line-height:1.25;font-family:MathJax_Main;-inkscape-font-specification:'MathJax_Main Bold';fill:#ffffff">Geoelements</tspan><tspan
          sodipodi:role="line"
          x="-34.189014"
-         y="349.59082"
+         y="343.34082"
          id="tspan4306"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:47.5px;line-height:1.25;font-family:MathJax_Main;-inkscape-font-specification:'MathJax_Main Bold';fill:#ffffff">Exascale Computational Geomechanics Research</tspan></text>
+         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:42.5px;line-height:1.25;font-family:MathJax_Main;-inkscape-font-specification:'MathJax_Main Bold';fill:#ffffff">Extreme-scale Computational Geomechanics Research</tspan></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;line-height:0%;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
