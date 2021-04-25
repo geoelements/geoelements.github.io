@@ -4,8 +4,8 @@ excerpt: "Civil Engineering analysis technique of finite elements is used for th
 categories:
   - news
 image: 
-  path: /images/so-simple-sample-image-2.jpg
-  thumbnail: /images/so-simple-sample-image-2-400x200.jpg
+  path: /images/news/2021/child-birth.jpg
+  thumbnail: /images/news/2021/child-birth.jpg
   caption: ""
 tags: 
   - fem
