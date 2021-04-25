@@ -22,4 +22,4 @@ The size of the pelvic floor and canal is key to keeping this balance. These opp
 “Although this dimension has made childbirth more difficult, we have evolved to a point where the pelvic floor and canal can balance supporting internal organs while also facilitating childbirth and making it as easy as possible,” said Krishna Kumar, an assistant professor in the Cockrell School of Engineering’s Department of Civil, Architectural and Environmental Engineering who led the research published this week in the journal Proceedings of the National Academy of Sciences.
 
 [Original news article](https://news.utexas.edu/2021/04/22/why-the-human-body-has-not-evolved-to-make-childbirth-easier-or-has-it/)
-[PrePrint]()
+[PrePrint](https://doi.org/10.5281/zenodo.4718654)
