@@ -4,8 +4,8 @@ excerpt: "Geoelements group wins TACC pathways proposal to simulate the Oso land
 categories:
   - news
 image: 
-  path: /images/so-simple-sample-image-2.jpg
-  thumbnail: /images/so-simple-sample-image-2-400x200.jpg
+  path: /images/news/2020/tacc-frontera.jpg
+  thumbnail: /images/news/2020/tacc-frontera.jpg
   caption: ""
 tags: 
   - mpm
