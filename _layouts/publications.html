@@ -17,39 +17,7 @@ layout: page
   {% endfor %}
 </ul>
 
-{% assign site_members = "" %}
-{% for member in site.data.members %}
-  {% assign site_members = site_members | append: member.pubname %}
-  {% assign site_members = site_members | append: "; " %}
-{% endfor %}
-
-{% assign postsbyAuthors = site.posts | where_exp: "post", "post.categories contains 'publications'" |
-  group_by_exp: 'posts', 'posts.authors' %}
-{% assign categories_max = 0 %}
-{% assign author_names = "" %}
-{% for authors in postsbyAuthors %}
-  {% for author in authors.name %}
-    {% if site_members contains author %}
-      {% unless author_names contains author %}
-        {% assign author_names = author_names | append: author %}
-        {% assign author_names = author_names | append: "; " %}
-      {% endunless %}
-    {% endif %}
-  {% endfor %}
-{% endfor %}
-<br/>
-<ul class="taxonomy-index">
-  {% assign authors = author_names | split: "; " | sort %}
-  {% for author in authors %}
-    <li>
-      <a href="#{{ author }}">
-        <strong>{{ author }}</strong> <span class="taxonomy-count"></span>
-      </a>
-    </li>
-  {% endfor %}
-</ul>
-
-<br/>
+<br />
 {% assign postsByYear = site.posts | where_exp: "post", "post.categories contains 'publications'" | group_by_exp:
 'post', 'post.date | date: "%Y"' %}
 {% for year in postsByYear %}
@@ -64,26 +32,3 @@ layout: page
     &uarr;</a>
 </section>
 {% endfor %}
-
-<br/>
-{% assign postsbyAuthors = site.posts | where_exp: "post", "post.categories contains 'publications'" |
-group_by_exp:
-'posts', 'posts.authors' %}
-
-{% assign authors = author_names | split: "; " | sort %}
-{% for author in authors %}
-  <section id="{{ author }}" class="taxonomy-section">
-  <h2 class="taxonomy-title">{{ author }}</h2> 
-  {% for postauthors in postsbyAuthors %}
-    {% if postauthors.name contains author %}
-      <div class="entries-{{ page.entries_layout | default: 'list' }}">
-        {% for entry in postauthors.items %}
-         {% include pub-entry.html %}
-        {% endfor %}
-      </div>
-      <a href="#page-title" class="back-to-top">{{ site.data.text[site.locale].back_to_top | default: 'Back to Top' }}
-        &uarr;</a>
-    {% endif %}
-  {% endfor %}
-{% endfor %}
-<br/>
