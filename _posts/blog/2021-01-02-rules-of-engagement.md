@@ -26,7 +26,7 @@ We’ll have at least one deep-dive meeting every two weeks and should be booked
 - Goals
 
 ### Brain Trust Meetings
-We’ll have weekly [Brain Trust meetings](https://kks32.atlassian.net/wiki/spaces/CBGEO/pages/970326021/Brain+Trust+meetings) to discuss research challenges and collectively find new research insights and troubleshoot problems. 
+We’ll have weekly [Brain Trust meetings](https://www.geoelements.org/meetings/brain%20trust/brain-trust-meetings/) to discuss research challenges and collectively find new research insights and troubleshoot problems. 
 
 ### Research Updates
 Make sure your project on Asana is upto date. All in-progress tasks should have deadlines and an associated duration of when you expect to finish the task. Keep tasks short (<6 hours). Ensure you keep the tasks active and include a document explaining your findings/review/results in a good when you move your task for review. 
