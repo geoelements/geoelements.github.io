@@ -10,10 +10,10 @@ As a group, we meet on MWF at 10 AM to update everyone about the status of the p
 - What is blocked, and 
 - What is your plan for the next two days.
 
- This quick status updates allows us to identify any potentially blocking aspect of your research sooner and we can have a deep-dive meeting to resolve issues. 
+ These quick status updates allow us to identify soon any aspect that you are having difficulties with or potentially blocking your research progress. We can immediately have a deep-dive meeting to resolve issues. 
 
-### Deep-dive Meetings
-We’ll have at least one deep-dive meeting every two weeks and should be booked online [https://calendly.com/krishnakut/30min](https://calendly.com/krishnakut/30min). These deep-dive meetings can be as frequent, if you feel stuck or at least once every two weeks. All meetings should have an agenda and a Google doc describing the updates, questions on Asana Meeting Agenda. Please make sure the documents are available at least two hours before the meeting. Please create an agenda with the following outline:
+### Deep dive meetings
+All meetings should be booked online [https://calendly.com/krishnakut/30min](https://calendly.com/krishnakut/30min). These deep-dive meetings can be as frequent as you like if you feel stuck. But at minimum, we should meet once every two weeks. All meetings should have an agenda and a Google doc describing the updates, questions on Asana Meeting Agenda. Please make sure the documents are available at least two hours before the meeting to prepare for our meeting, and the discussion is more productive. Sending documents beforehand eliminates the need to update me on your progress, and we can dive straight to the problem at hand. Please create an agenda with the following outline:
 
 - How may I help you?
 - To discuss
@@ -21,16 +21,16 @@ We’ll have at least one deep-dive meeting every two weeks and should be booked
 - Next steps
 - Goals
 
-### Brain Trust Meetings
-We’ll have weekly [Brain Trust meetings](https://www.geoelements.org/meetings/brain%20trust/brain-trust-meetings/) to discuss research challenges and collectively find new research insights and troubleshoot problems. 
+### Brain Trust meetings
+We'll have weekly [Brain Trust meetings](https://www.geoelements.org/meetings/brain%20trust/brain-trust-meetings/) to discuss research challenges and collectively find new research insights, and troubleshoot problems.
 
-### Research Updates
-Make sure your project on Asana is upto date. All in-progress tasks should have deadlines and an associated duration of when you expect to finish the task. Keep tasks short (<6 hours). Ensure you keep the tasks active and include a document explaining your findings/review/results in a good when you move your task for review. 
+### Research updates
+Make sure your project on Asana is up to date. All in-progress tasks should have deadlines and an associated duration of when you expect to finish the task. Keep tasks short (<6 hours). Ensure you keep the tasks active and include a document explaining your findings/review/results in a good when you move your task for review. 
 
 ### Mentor-Mentee 360
-This is to have a feedback loop between you and me (mentee and mentor). A Mentor-Mentee 360 happens every 3 months on the first week of the month. A document should be available private to you in your google drive. We’ll cover the following topics:
+This is to have a feedback loop between you and me (mentee and mentor). A Mentor-Mentee 360 happens every three months on the first week of the month. A document should be available private to you in your google drive. We'll cover the following topics:
 
-- What amazing work you have done?
+- What amazing work have you done?
 - What areas do you think you should improve?
 - What are your goals for this quarter?
 - How can your mentor help you?
