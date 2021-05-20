@@ -16,13 +16,9 @@ As a group, we meet on MWF at 10 AM to update everyone about the status of the p
 We’ll have at least one deep-dive meeting every two weeks and should be booked online [https://calendly.com/krishnakut/30min](https://calendly.com/krishnakut/30min). These deep-dive meetings can be as frequent, if you feel stuck or at least once every two weeks. All meetings should have an agenda and a Google doc describing the updates, questions on Asana Meeting Agenda. Please make sure the documents are available at least two hours before the meeting. Please create an agenda with the following outline:
 
 - How may I help you?
-
 - To discuss
-
 - Updates
-
 - Next steps
-
 - Goals
 
 ### Brain Trust Meetings
@@ -35,11 +31,7 @@ Make sure your project on Asana is upto date. All in-progress tasks should have 
 This is to have a feedback loop between you and me (mentee and mentor). A Mentor-Mentee 360 happens every 3 months on the first week of the month. A document should be available private to you in your google drive. We’ll cover the following topics:
 
 - What amazing work you have done?
-
 - What areas do you think you should improve?
-
 - What are your goals for this quarter?
-
 - How can your mentor help you?
-
 - What skill would you like to develop/career advice?
