@@ -4,8 +4,16 @@ categories:
   - rules
 ---
 
-### 1-1 Meetings
-We’ll have at least 1 weekly 1-1 meeting. All meetings should have an agenda and a Google doc describing the updates, questions on either Asana or Discourse. Please create an agenda with the following outline:
+### Status updates
+As a group, we meet on MWF at 10 AM to update everyone about the status of the project. This is a short two-minutes talk (no presentations) about your research. The update should cover: 
+- What you have been working on the last 2 days, 
+- What is blocked, and 
+- What is your plan for the next two days.
+
+ This quick status updates allows us to identify any potentially blocking aspect of your research sooner and we can have a deep-dive meeting to resolve issues. 
+
+### Deep-dive Meetings
+We’ll have at least one deep-dive meeting every two weeks and should be booked online [https://calendly.com/krishnakut/30min](https://calendly.com/krishnakut/30min). These deep-dive meetings can be as frequent, if you feel stuck or at least once every two weeks. All meetings should have an agenda and a Google doc describing the updates, questions on Asana Meeting Agenda. Please make sure the documents are available at least two hours before the meeting. Please create an agenda with the following outline:
 
 - How may I help you?
 
@@ -21,25 +29,10 @@ We’ll have at least 1 weekly 1-1 meeting. All meetings should have an agenda a
 We’ll have weekly [Brain Trust meetings](https://kks32.atlassian.net/wiki/spaces/CBGEO/pages/970326021/Brain+Trust+meetings) to discuss research challenges and collectively find new research insights and troubleshoot problems. 
 
 ### Research Updates
-#### Daily updates
-At 5 PM (or the end of the day) every weekday, please post an update to our slack channel #updates on the work you have been doing that day.
+Make sure your project on Asana is upto date. All in-progress tasks should have deadlines and an associated duration of when you expect to finish the task. Keep tasks short (<6 hours). Ensure you keep the tasks active and include a document explaining your findings/review/results in a good when you move your task for review. 
 
-#### Weekly goals
-Every Monday at 8 AM (or at the start of your day), please post your goals for the week on our slack channel #updates.
-
-#### Weekly updates on Asana
-Every Friday at 5 PM (or at the end of your day), please post your progress for the week on the Asana Progress tab. The status updates are useful to see if a project is on track or falling behind. 
-
-#### Research Roadmap
-This is a monthly planner. The roadmap gives an overview of what you would like to do this month (goals).  For example, I want to finish a proposal this month. I will only add major goals for the week. (Please don't add minor tasks like a review, unless that's your goal for the week). The goal is a major outcome, not a task. Hopefully, this will help us plan for a month and see how we are doing.
-
-RoadMaps are available on Asana with individual sections for each one of us: [https://app.asana.com/0/1170988028189084/timeline](https://app.asana.com/0/1170988028189084/timeline)
-
-#### Milestones
-Every project should have milestones. These are manageable task units that can be finished in 2 weeks to a month at most. Milestones should be set in the Asana project tab.
-
-### Mentor-Mentee meetings
-This is to have a feedback loop between you and me (mentee and mentor). A Mentor-Mentee meeting every 3 months on the first Monday of the month. A document should be available private to you in your google drive. We’ll cover the following topics:
+### Mentor-Mentee 360
+This is to have a feedback loop between you and me (mentee and mentor). A Mentor-Mentee 360 happens every 3 months on the first week of the month. A document should be available private to you in your google drive. We’ll cover the following topics:
 
 - What amazing work you have done?
 
@@ -50,4 +43,3 @@ This is to have a feedback loop between you and me (mentee and mentor). A Mentor
 - How can your mentor help you?
 
 - What skill would you like to develop/career advice?
-
