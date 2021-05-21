@@ -9,22 +9,32 @@ layout: default
       <header class="page-header">
         {% assign title = page.title | markdownify | strip_html %}
         <h3 id="page-title" class="page-title">{{ title }}</h3>
-        <h4 class="page-authors">
+        <h5 class="page-authors">
           {% for author in page.authors %}
-            {{author}} 
-          {% endfor %}<br/>
-          {{ page.journal }}
-        </h4>
+          {{author}}
+          {% endfor %}<br />
+          <i>
+            {{ page.journal }}
+          </i>
+        </h5>
       </header>
-
+      <!--
       <div class="page-sidebar">
         {% include pub-preprint.html %}
         {% include page-tags.html %}
       </div>
-
+      -->
       <div class="page-content">
         <div class="e-content">
-          {{ content }}
+          <div style="float: left; width: 45%; text-align: right; margin-right: 5%; margin-top: 2%;">
+            {% include pub-preprint.html %}
+          </div>
+          <div style="float: right; width: 45%; text-align: left; margin-left: 5%; margin-top: 2%;">
+            {% include page-tags.html %}
+          </div>
+          <div style="clear: both; width: 100%">
+            {{ content }}
+          </div>
         </div>
 
         {% if page.share %}

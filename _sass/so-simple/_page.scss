@@ -351,8 +351,9 @@
 
   .page-content {
     @include breakpoint($large) {
-      float: right; // display: grid fallback
-      width: 78%; // display: grid fallback
+      grid-column: 1/-1;
+      float: left; // display: grid fallback
+      width: 100%; // display: grid fallback
       min-width: 0;
     }
 
