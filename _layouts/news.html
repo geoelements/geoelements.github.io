@@ -21,7 +21,7 @@ layout: page
 {% for year in postsByYear %}
 <section id="{{ year.name }}" class="taxonomy-section">
   <h2 class="taxonomy-title">{{ year.name }}</h2>
-  <div class="entries-{{ page.entries_layout | default: 'list' }}">
+  <div class="entries-grid">
     {% for entry in year.items %}
     {% include entry.html %}
     {% endfor %}
