@@ -63,33 +63,21 @@ Never keep synchronous channels (Slack/Emails) active throughout your day. Check
 It’s easy to find your calendar full of meetings that might not help you achieve what’s most pressing. Here are some criteria you might use to decide whether a meeting is worth organizing or attending:
 
 1. Have clear goals been set for the meeting?
-
 2. Does the meeting have a defined agenda?
-
 3. Is the meeting being set for an appropriate amount of time?
-
 4. Is the meeting being set in a time that doesn’t affect your productivity?
-
 5. Have relevant documents been sent with the meeting invite, so you and your colleagues can come prepared?
-
 6. Can discussion or updates be managed asynchronously (e.g. via email, Slack, Trello, or Asana)?
 
 #### Slack
 - Don’t send a Slack question, if you need a detailed response, use an asynchronous channel
-
 - Use Slack to keep in touch with your friends and colleagues
-
 - Always call or send a text message if it is urgent!
 
 #### Emails
 - Don’t send an email if you can get a simple question answered elsewhere;
-
 - Make your subject line informative;
-
 - Try to write five sentences or less (makes it easier to read);
-
 - Use bullet points to write and reply to emails;
-
 - Put the most important stuff at the top; and
-
 - Use “CC” and “Reply All” sparingly
