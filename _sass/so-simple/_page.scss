@@ -251,7 +251,7 @@
 
     @include breakpoint($large) {
       float: left; // display: grid fallback
-      width: 18%; // display: grid fallback
+      width: 0%; // display: grid fallback
     }
 
     @supports (display: grid) {
@@ -270,9 +270,13 @@
 
   .page-content {
     @include breakpoint($large) {
-      float: right; // display: grid fallback
-      width: 78%; // display: grid fallback
+      grid-column: 1 / -1;
+      float: left; // display: grid fallback
+      width: 80%; // display: grid fallback
+      line-height: 1.7em;
       min-width: 0;
+      padding-left: 5%;
+      padding-right: 5%;
     }
 
     @supports (display: grid) {

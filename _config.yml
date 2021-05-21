@@ -74,11 +74,11 @@ tag_archive_path: "/tags/#"
 #   - vendor/gems/
 #   - vendor/ruby/
 
-#plugins:
+plugins:
 #  - jekyll-seo-tag
 #  - jekyll-sitemap
 #  - jekyll-feed
-#  - jekyll-paginate
+  - jekyll-paginate
 #  - jekyll-redirect-from
 
 # Collections

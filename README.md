@@ -5,7 +5,8 @@
 ## Build and compile
 
 ```
-bundle install --path="./vendor/bundle"
+bundle config set --local path './vendor/bundle'
+bundle install
 bundle exec jekyll build
 bundle exec jekyll serve --incremental
 ```
