@@ -13,6 +13,8 @@ categories:
   - publications
 tags:
   - journal
+  - lbm
+  - dem
 # - markup
 #  - post
 #  - title

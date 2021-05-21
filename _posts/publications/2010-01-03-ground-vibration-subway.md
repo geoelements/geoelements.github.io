@@ -10,8 +10,4 @@ categories:
   - publications
 tags:
   - conference
-# - markup
-#  - post
-#  - title
-
 ---

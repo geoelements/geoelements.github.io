@@ -8,8 +8,6 @@ categories: publications
 layout: publication
 tags:
   - conference
-  - mpm
-  - hpc
   - journal
 preprint: https://arxiv.org/abs/2011.03129
 ---

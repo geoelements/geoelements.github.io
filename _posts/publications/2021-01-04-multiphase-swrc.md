@@ -8,6 +8,7 @@ categories:
 tags:
   - conference
   - multiphase-lbm
+  - lbm
   - hpc
 preprint: https://arxiv.org/abs/2102.08420
 ---
