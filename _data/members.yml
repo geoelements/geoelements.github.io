@@ -12,6 +12,7 @@
     - FEM
     - LBM
     - LEM
+    - ML
     - MPM
 
 # Researchers
@@ -26,6 +27,18 @@
   email: thiago.araujo@utexas.edu
   pubname: 
   area: MPM
+
+- name: Yongjin Choi
+  role: student
+  position: PhD candidate
+  uni: UT Austin
+  url: /team/yongjin-choi
+  image: yongjin.jpg
+  email: yj.choi@utexas.edu
+  pubname: 
+  area: 
+    - ML
+    - Earthquakes
 
 - name: Reihaneh Hosseini
   role: student
@@ -47,7 +60,9 @@
   image: question.png
   email: bsordo@utexas.edu
   pubname: 
-  area: MPM
+  area: 
+    - MPM
+    - Earthquakes
 
 - name: Chihun Sung
   role: student
@@ -67,7 +82,9 @@
   image: joe.jpg
   email: jvantassel@utexas.edu
   pubname: "Vantassel, J. P."
-  area: ML
+  area: 
+    - ML
+    - Geophysics
 
 - name: Qiuyu Wang
   role: student
