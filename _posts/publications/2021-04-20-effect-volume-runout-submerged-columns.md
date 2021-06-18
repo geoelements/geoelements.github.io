@@ -1,6 +1,6 @@
 ---
 title: "Effect of Initial Volume on the Run-Out Behavior of Submerged Granular Columns"
-authors: "Wang, Q., Hosseini, R., Kumar, K.,"
+authors: "Wang, Q., Hosseini, R., Kumar, K."
 journal: GeoCongress 2021, Dallas, USA
 layout: publication
 categories: 
