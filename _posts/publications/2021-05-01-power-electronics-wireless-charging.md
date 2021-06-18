@@ -1,7 +1,7 @@
 ---
-title: "Power Electronics Packaging for In-Road Wireless Charging Installations"
+title: "Power electronics packaging for in-road wireless charging installations"
 authors: "Ridge, A., Konaklieva, S., Bradley, S., McMahon, R. A., Kumar, K."
-journal: IEEE Workshop on Emerging Technologies: Wireless Power (WoW), San Diego, USA, 1-4 June 2021
+journal: IEEE Workshop on Emerging Technologies - Wireless Power (WoW), San Diego, USA, 1-4 June 2021
 layout: publication
 categories: 
   - publications
