@@ -12,7 +12,7 @@ tags:
 preprint: https://arxiv.org/abs/2108.12866
 ---
 
-n nature, submarine slope failures usually carry thousands of cubic-meters of sediments across extremely long 
+In nature, submarine slope failures usually carry thousands of cubic-meters of sediments across extremely long 
 distances and cause tsunamis and damages to offshore structures. This paper uses the granular column collapse experiment to 
 investigate the effect of slope angle on the runout behavior of submarine granular landslides for different initial volumes. A 
 two-dimensional  coupled  lattice  Boltzman  and  discrete  element  method  (LBM-DEM)  approach  is  adopted  for  numerically 
