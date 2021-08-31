@@ -1,6 +1,6 @@
 ---
 title: "Effect Of Slope Angle On The Runout Evolution of Granular Column Collapse for Varying Initial Volumes"
-authors: "Wang Q., Hosseini R., Kumar K."
+authors: "Wang, Q., Hosseini, R., Kumar, K."
 journal: Proceedings of the 20th International Conference on Soil Mechanics and Geotechnical Engineering, Sydney 2021
 layout: publication
 categories: 
