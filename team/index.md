@@ -62,7 +62,7 @@ excerpt: "Geoelements research team"
 <!-- Team filled from _data/members.yaml-->
    <div class="team">
     {% for member in site.data.members %}
-      {% if member.role == "masters" %}
+      {% if member.role == "alumni" %}
        <div class="user"><a href="{{member.url}}">
          <div class="userimg" style="background-image:url('{{ site.baseurl }}/images/geoelements/team/{{ member.image }}')">
          </div> </a>
