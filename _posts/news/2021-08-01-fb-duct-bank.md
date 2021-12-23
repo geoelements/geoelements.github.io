@@ -1,6 +1,6 @@
 ---
 title: "Facebook Industry Project: Rethinking the Thermal Design of Duct Banks"
-excerpt: "Facebook (Meta) awards Dr Chadi El Mohtar and Dr Krishna Kumar an industry researh project to improve the heat dissipation in duct banks."
+excerpt: "Facebook awards Dr Chadi El Mohtar and Dr Krishna Kumar an industry researh project to improve the heat dissipation in duct banks."
 categories:
   - news
 image: 
