@@ -12,6 +12,8 @@ excerpt: "Gradute, undergraduate and other courses"
 
 ### Undergraduate course
 
+* CE357: Introduction to Geotechnical Engineering 
+
 * [CE311K: Introduction to programming](https://github.com/kks32-courses/ce311k) 
 
 ### Other courses
