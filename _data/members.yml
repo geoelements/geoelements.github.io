@@ -88,6 +88,17 @@
     - DEM    
     - LBM
 
+- name: Fuat Furkan Yalcin
+  role: student
+  position: PhD candidate
+  uni: UT Austin
+  url: /team/fuat-yalcin
+  image: fuat.jpg
+  email: fyalcin@utexas.edu
+  pubname: "Yalcin, F."
+  area:
+    - DEM    
+    - LBM
 
 #Masters students
 
