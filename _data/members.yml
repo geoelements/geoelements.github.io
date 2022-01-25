@@ -35,12 +35,24 @@
   position: PhD candidate
   uni: UT Austin
   url: /team/jodie-crocker
-  image: question.png
+  image: jodie.jpg
   email: jcrocker@utexas.edu
   pubname: 
   area: 
     - FWI
     - ML
+
+- name: Cheng-Hsi Hsiao
+  role: student
+  position: PhD candidate
+  uni: UT Austin
+  url: /team/cheng-hsi-hsiao
+  image: cheng-hsi.jpg
+  email: chhsiao@utexas.edu
+  pubname: 
+  area: 
+    - ML
+    - Earthquakes
 
 - name: Reihaneh Hosseini
   role: student
@@ -71,7 +83,7 @@
   position: PhD candidate
   uni: UT Austin
   url: /team/chihun-sung
-  image: question.png
+  image: chihun.jpeg
   email: csung@utexas.edu
   pubname:
   area: MPM
