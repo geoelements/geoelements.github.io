@@ -73,3 +73,7 @@ excerpt: "Geoelements research team"
     {% endfor %}
    </div>
 <!-- End team -->
+
+### Prospective students
+If you are interested in joining our research team, read our [wiki](https://geoelements.org/wiki/), especially the section on 
+[prospective students](https://www.geoelements.org/wiki/#/prospective-students) and [expectations and responsibilities](https://www.geoelements.org/wiki/#/expectations). Please read [the email guidelines](https://www.geoelements.org/wiki/#/prospective-students?id=i-want-to-get-on-krishna39s-radar-before-i-submit-my-application-how-do-i-do-that) before contacting Krishna to express your research interest. 
