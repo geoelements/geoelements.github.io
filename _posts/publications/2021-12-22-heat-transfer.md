@@ -1,7 +1,7 @@
 ---
 title: "Conductive and convective heat transfer in inductive heating of subsea buried pipelines"
 authors: "Kumar, K., El Mohtar, C., and Gilbert, R."
-journal: 
+journal: ASCE Journal of Pipeline Systems Engineering and Practice
 layout: publication
 categories: 
   - publications
