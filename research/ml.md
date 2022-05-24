@@ -10,7 +10,7 @@ Our research on ML and X-AI focuses on developing interpretable techniques for m
 
 ## Code
 
-* Graph Network Simulator[GitHub](https://www.github.com/geoelements/gns) 
+* Graph Network Simulator (GNS)[GitHub](https://www.github.com/geoelements/gns) 
 
 ## Simulations
 
