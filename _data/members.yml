@@ -88,6 +88,18 @@
   pubname:
   area: MPM
 
+- name: Anusha Vajapeyajula
+  role: student
+  position: PhD candidate
+  uni: UT Austin
+  url: /team/anusha-vajapeyajula
+  image: question.png
+  email: anushav@utexas.edu
+  pubname: "Vajapeyajula, A."
+  area:
+    - MPM    
+    - ML
+
 - name: Qiuyu Wang
   role: student
   position: PhD candidate
@@ -96,18 +108,6 @@
   image: qiuyu.jpg
   email: wangqiuyu@utexas.edu
   pubname: "Wang, Q."
-  area:
-    - DEM    
-    - LBM
-
-- name: Fuat Furkan Yalcin
-  role: student
-  position: PhD candidate
-  uni: UT Austin
-  url: /team/fuat-yalcin
-  image: fuat.jpg
-  email: fyalcin@utexas.edu
-  pubname: "Yalcin, F."
   area:
     - DEM    
     - LBM
