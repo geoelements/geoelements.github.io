@@ -17,7 +17,7 @@ Our research on ML and X-AI focuses on developing interpretable techniques for m
 ![GNS simulation of granular flow](https://raw.githubusercontent.com/geoelements/gns/main/figs/rollout_0.gif)
 
 ## Videos
-X-AI and Machine Learning
+X-AI and Machine Learning, 2022 SimCenter-DesignSafe AI workshop
 <iframe width="560" height="315" src="https://www.youtube.com/embed/NO8D_vyFzBE" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## Team
