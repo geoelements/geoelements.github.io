@@ -17,7 +17,9 @@ layout: page
   {% endfor %}
 </ul>
 
-<h3><a href="/tags/">View articles by topic</a></h3>
+<br />
+
+<h3 style="text-align: center;"><a href="/tags/">View articles by topic</a></h3>
 
 <br />
 {% assign postsByYear = site.posts | where_exp: "post", "post.categories contains 'publications'" | group_by_exp:
