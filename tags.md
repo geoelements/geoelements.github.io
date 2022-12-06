@@ -1,5 +1,5 @@
 ---
-title: Ph.D. student
+title: Article tags
 layout: tags
 permalink: /tags/
 show_excerpts: true
