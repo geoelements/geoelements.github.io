@@ -10,6 +10,8 @@ categories:
 tags:
   - journal
   - ml
+  - cnn
+  - fwi
 layout: publication
 preprint: https://arxiv.org/abs/2104.01626
 ---

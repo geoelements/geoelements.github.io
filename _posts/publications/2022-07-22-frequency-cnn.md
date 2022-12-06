@@ -8,6 +8,7 @@ categories:
 tags:
   - ml
   - fwi
+  - cnn
   
 preprint: https://arxiv.org/abs/2207.09580
 ---

@@ -7,6 +7,7 @@ categories:
   - publications
 tags:
   - conference
+  - granular-flow
   - dem
   - lbm
 preprint: https://arxiv.org/abs/2011.03129

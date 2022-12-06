@@ -8,6 +8,7 @@ categories:
 tags:
   - conference
   - ml
+  - gns
   - insitu
   - viz
   

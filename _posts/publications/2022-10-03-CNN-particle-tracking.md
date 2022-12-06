@@ -8,6 +8,7 @@ categories:
 tags:
   - journal
   - ml
+  - cnn
   - porescale
   - experiments
 preprint: 
