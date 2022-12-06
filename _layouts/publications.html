@@ -17,6 +17,8 @@ layout: page
   {% endfor %}
 </ul>
 
+<h3><a href="https://www.geoelements.org/tags/">View articles by topic</a></h3>
+
 <br />
 {% assign postsByYear = site.posts | where_exp: "post", "post.categories contains 'publications'" | group_by_exp:
 'post', 'post.date | date: "%Y"' %}
