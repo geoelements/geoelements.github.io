@@ -8,7 +8,8 @@ categories:
 tags:
   - journal
   - mpm
-  - in-situ viz
+  - insitu
+  - viz
 preprint: https://arxiv.org/pdf/2109.02754
 ---
 

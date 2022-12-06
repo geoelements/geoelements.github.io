@@ -7,7 +7,7 @@ categories:
   - publications
 tags:
   - conference
-  - wireless-charging
+  - heat-transfer
   - thermal
 preprint: http://wrap.warwick.ac.uk/152746/1/WRAP-Power-electronics-packaging-in-road-wireless-charging-2021.pdf
 ---

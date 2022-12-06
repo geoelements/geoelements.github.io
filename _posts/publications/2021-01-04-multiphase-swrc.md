@@ -7,8 +7,8 @@ categories:
   - publications
 tags:
   - conference
-  - multiphase-lbm
   - lbm
+  - porescale
   - hpc
 preprint: https://arxiv.org/abs/2102.08420
 ---

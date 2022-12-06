@@ -7,10 +7,9 @@ categories:
   - publications
 tags:
   - swcc
-  - multiphase
   - lbm
-  - pore-scale
-  - hpc
+  - porescale
+
 preprint: https://arxiv.org/abs/2209.11393
 ---
 

@@ -11,8 +11,8 @@ categories:
   - publications
 tags:
   - journal
-  - fea
-  - pelvic-floor
+  - fem
+  - biology
 preprint: https://doi.org/10.5281/zenodo.4723996
 ---
 
