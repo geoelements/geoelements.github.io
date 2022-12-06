@@ -1,5 +1,5 @@
 ---
-title: Article tags
+title: Article topics
 layout: tags
 permalink: /tags/
 show_excerpts: true
