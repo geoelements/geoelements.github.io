@@ -20,6 +20,9 @@ the nodes, resulting in updated nodal velocities and positions. (3) The updated 
 are interpolated back to the material points. (4) The state of the material points is updated, and the
 computational grid is reset
 
+## MPM Online course book
+Learn to code MPM with Python [online book](https://www.geoelements.org/LearnMPM/intro.html)
+
 ## CB-Geo MPM code
 
 * The CB-Geo MPM code is available at [GitHub](https://github.com/cb-geo/mpm)
