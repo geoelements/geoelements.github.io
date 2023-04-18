@@ -1,11 +1,11 @@
 ---
 layout: page
-title: "Machine Learning and X-AI"
+title: "Machine Learning, Differentiable Simulator and X-AI"
 categories: research
 tags: [LBM]
 ---
 
-Our research on ML and X-AI focuses on developing interpretable techniques for modeling liquefaction and full-wave form inversions. We also develop Graph-Network Simulator (GNS) to model large-deformation flows.
+Our research on ML, differentiable programming and X-AI focuses on developing interpretable techniques for modeling physics and solving inverse problems. We also develop Graph-Network Simulator (GNS) to model particulate systems.
 
 
 ## Code
@@ -14,7 +14,7 @@ Our research on ML and X-AI focuses on developing interpretable techniques for m
 
 ## Simulations
 
-![GNS simulation of granular flow](https://raw.githubusercontent.com/geoelements/gns/main/figs/rollout_0.gif)
+![GNS simulation of granular flow](https://raw.githubusercontent.com/geoelements/gns/main/docs/img/rollout_0.gif)
 
 ## Videos
 X-AI and Machine Learning, 2022 SimCenter-DesignSafe AI workshop
