@@ -1,16 +1,17 @@
 ---
 layout: page
-title: "Machine Learning, Differentiable Simulator and X-AI"
+title: "Scientific Machine Learning and Differentiable Simulator"
 categories: research
 tags: [LBM]
 ---
 
-Our research on ML, differentiable programming and X-AI focuses on developing interpretable techniques for modeling physics and solving inverse problems. We also develop Graph-Network Simulator (GNS) to model particulate systems.
+Our research on Scientific Machine Learning (SciML) and differentiable programming focuses on discovering new physics and developing fast algorithms to accelerate numerical simulations.
 
 
 ## Code
-
+ 
 * Graph Network Simulator (GNS)[GitHub](https://www.github.com/geoelements/gns) 
+Graph Network-based Simulator (GNS) is a framework for developing generalizable, efficient, and accurate machine learning (ML)-based surrogate models for particulate and fluid systems using Graph Neural Networks (GNNs). GNS code is a viable surrogate for numerical methods such as Material Point Method, Smooth Particle Hydrodynamics and Computational Fluid dynamics. GNS exploits distributed data parallelism to achieve fast multi-GPU training. The GNS code can handle complex boundary conditions and multi-material interactions.
 
 ## Simulations
 

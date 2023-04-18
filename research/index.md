@@ -16,6 +16,6 @@ The Material Point Method (MPM) is a hybrid Eulerian-Lagrangian approach, which 
 
 The Lattice Boltzmann equation Method (LBM) is a meso-scale fluid solver for modeling grain-scale fluid flow. The Discrete-Element Method (DEM) is coupled with LBM to model soil-fluid interactions at particulate scale.
 
-### [Machine Learning (ML), Differntiable Programming and Explainable-AI (X-AI)]({{ site.url }}/research/ml/)
+### [Scientific Machine Learning (SciML) and Differentiable Programming]({{ site.url }}/research/ml/)
 
-Differentiable Programming, explainable-AI (X-AI) and ML research focuses on discovering new physics using a data-driven approach and AI-accelerated simulations.
+Our research on SciML and differentiable programming focuses on discovering new physics using a data-driven approach and AI-accelerated simulations.
