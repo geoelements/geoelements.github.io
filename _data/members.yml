@@ -88,18 +88,6 @@
   pubname:
   area: MPM
 
-- name: Anusha Vajapeyajula
-  role: student
-  position: PhD candidate
-  uni: UT Austin
-  url: /team/anusha-vajapeyajula
-  image: question.png
-  email: anushav@utexas.edu
-  pubname: "Vajapeyajula, A."
-  area:
-    - MPM    
-    - ML
-
 - name: Qiuyu Wang
   role: student
   position: PhD candidate
@@ -113,7 +101,32 @@
     - LBM
 
 #Masters students
+- name: Chahak Mehta
+  role: student
+  position: MS
+  uni: UT Austin
+  url: /team/chahak-mehta
+  image: question.png
+  email: chahak@utexas.edu
+  pubname: "Mehta, C."
+  area:
+    - LLM    
+    - AI
+    - MPM
 
+- name: Sean McLean
+  role: student
+  position: MS
+  uni: UT Austin
+  url: /team/sean-mclean
+  image: question.png
+  email: seanzanykmclean@utexas.edu
+  pubname: "McLean, S."
+  area:
+    - LLM    
+    - AI
+    - Viz
+    
 # Visitors
 
 # Alumni
