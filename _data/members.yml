@@ -85,7 +85,7 @@
 
 # Alumni
 - name: Chahak Mehta
-  role: student
+  role: alumni
   position: MS
   uni: UT Austin
   url: /team/chahak-mehta
@@ -99,7 +99,7 @@
     - MPM
 
 - name: Jodie Crocker
-  role: student
+  role: alumni
   position: PhD candidate
   uni: UT Austin
   url: /team/jodie-crocker
@@ -112,7 +112,7 @@
     - ML
 
 - name: Qiuyu Wang
-  role: student
+  role: alumni
   position: PhD candidate
   uni: UT Austin
   url: /team/qiuyu-wang
@@ -125,7 +125,7 @@
     - LBM
 
 - name: Chihun Sung
-  role: student
+  role: alumni
   position: PhD candidate
   uni: UT Austin
   url: /team/chihun-sung
@@ -136,7 +136,7 @@
   area: MPM
 
 - name: Reihaneh Hosseini
-  role: student
+  role: alumni
   position: PhD candidate
   uni: UT Austin
   url: /team/reihaneh-hosseini
