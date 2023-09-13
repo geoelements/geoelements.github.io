@@ -30,18 +30,6 @@
     - ML
     - Earthquakes
 
-- name: Jodie Crocker
-  role: student
-  position: PhD candidate
-  uni: UT Austin
-  url: /team/jodie-crocker
-  image: jodie.jpg
-  email: jcrocker@utexas.edu
-  pubname: 
-  area: 
-    - FWI
-    - ML
-
 - name: Cheng-Hsi Hsiao
   role: student
   position: PhD candidate
@@ -54,17 +42,16 @@
     - ML
     - Earthquakes
 
-- name: Reihaneh Hosseini
+- name: Leila Roshanali
   role: student
   position: PhD candidate
   uni: UT Austin
-  url: /team/reihaneh-hosseini
-  image: rei.jpg
-  email: reihos@utexas.edu
-  pubname: "Hosseini, R."
-  area:
-    - DEM    
-    - LBM
+  url: /team/leila-roshanali
+  image: leila.png
+  email: leila.roshanali@utexas.edu
+  pubname: 
+  area: 
+    - ML
 
 - name: Brent Sordo
   role: student
@@ -78,41 +65,8 @@
     - MPM
     - Earthquakes
 
-- name: Chihun Sung
-  role: student
-  position: PhD candidate
-  uni: UT Austin
-  url: /team/chihun-sung
-  image: chihun.jpeg
-  email: csung@utexas.edu
-  pubname:
-  area: MPM
-
-- name: Qiuyu Wang
-  role: student
-  position: PhD candidate
-  uni: UT Austin
-  url: /team/qiuyu-wang
-  image: qiuyu.jpg
-  email: wangqiuyu@utexas.edu
-  pubname: "Wang, Q."
-  area:
-    - DEM    
-    - LBM
 
 #Masters students
-- name: Chahak Mehta
-  role: student
-  position: MS
-  uni: UT Austin
-  url: /team/chahak-mehta
-  image: question.png
-  email: chahak@utexas.edu
-  pubname: "Mehta, C."
-  area:
-    - LLM    
-    - AI
-    - MPM
 
 - name: Sean McLean
   role: student
@@ -130,6 +84,70 @@
 # Visitors
 
 # Alumni
+- name: Chahak Mehta
+  role: student
+  position: MS
+  uni: UT Austin
+  url: /team/chahak-mehta
+  image: question.png
+  email: chahak@utexas.edu
+  pubname: "Mehta, C."
+  year: 2023
+  area:
+    - LLM    
+    - AI
+    - MPM
+
+- name: Jodie Crocker
+  role: student
+  position: PhD candidate
+  uni: UT Austin
+  url: /team/jodie-crocker
+  image: jodie.jpg
+  email: jcrocker@utexas.edu
+  year: 2023
+  pubname: "Crocker, J."
+  area: 
+    - FWI
+    - ML
+
+- name: Qiuyu Wang
+  role: student
+  position: PhD candidate
+  uni: UT Austin
+  url: /team/qiuyu-wang
+  image: qiuyu.jpg
+  email: wangqiuyu@utexas.edu
+  pubname: "Wang, Q."
+  year: 2023
+  area:
+    - DEM    
+    - LBM
+
+- name: Chihun Sung
+  role: student
+  position: PhD candidate
+  uni: UT Austin
+  url: /team/chihun-sung
+  image: chihun.jpeg
+  email: csung@utexas.edu
+  year: 2023
+  pubname: "Sung, C."
+  area: MPM
+
+- name: Reihaneh Hosseini
+  role: student
+  position: PhD candidate
+  uni: UT Austin
+  url: /team/reihaneh-hosseini
+  image: rei.jpg
+  email: reihos@utexas.edu
+  pubname: "Hosseini, R."
+  year: 2022
+  area:
+    - DEM    
+    - LBM
+
 - name: Joseph Vantassel
   role: alumni
   position: PhD
