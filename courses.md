@@ -6,6 +6,8 @@ excerpt: "Gradute, undergraduate and other courses"
 
 ### Graduate courses
 
+* [CE397: Scientific Machine Learning](https://kks32-courses.github.io/sciml/README.html)
+
 * [CE394M: Advanced analysis in geotechnical engineering](https://github.com/kks32-courses/ce394m)
 
 * [5R7: Numerical methods in geotechnical engineering](https://github.com/kks32-courses/5r7-fem) 
@@ -14,9 +16,13 @@ excerpt: "Gradute, undergraduate and other courses"
 
 * CE357: Introduction to Geotechnical Engineering 
 
-* [CE311K: Introduction to programming](https://github.com/kks32-courses/ce311k) - watch [Lecture videos](https://www.youtube.com/watch?v=eVKPCWBlY8A&list=PLF6FCo2wh5eXt-r324VAXFdP2z1IJUbqs)
+* [CE311K: Introduction to programming](https://github.com/kks32-courses/ce311k) - watch [Lecture videos](https://www.youtube.com/watch?v=eVKPCWBlY8A&list=PLF6FCo2wh5eXt-r324VAXFdP2z1IJUbqs) and [Online book](https://kks32-courses.github.io/ce311k/README.html)
 
 ### Other courses
+
+* [Learn Material Point Method through coding - LearnMPM](https://www.geoelements.org/LearnMPM/intro.html)
+
+* [Accelerating Python with Cython, JAX and Numba](https://kks32-courses.github.io/accelerating-python/README.html)
 
 * [Designing large-scale applications in C++](https://github.com/kks32/cpp-software-development)
 
