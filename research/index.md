@@ -6,7 +6,7 @@ excerpt: "Geoelements exascale computational geomechanics research"
 #  feature: geoelements/banner.png
 ---
 
-## Numerical Methods
+Our research group is dedicated to exploring advanced numerical methods and innovative techniques that bridge the gap between traditional simulations and modern data-driven approaches. Below are our primary areas of focus:
 
 ### [Material Point Method]({{ site.url }}/research/mpm/)
 
