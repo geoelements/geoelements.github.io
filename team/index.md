@@ -46,12 +46,34 @@ excerpt: "Geoelements research team"
    <div class="team">
     {% for member in site.data.members %}
       {% if member.role == "student" %}
-       <div class="user">
-         <a href="{{member.url}}"><div class="userimg" style="background-image:url('{{ site.baseurl }}/images/geoelements/team/{{ member.image }}')">
-         </div></a>
-         <h4><a href="{{member.url}}">{{ member.name }}</a></h4>
-         <a href="mailto:{{ member.email }}">{{ member.email }}</a>
-       </div>
+        {% if member.position == "PhD candidate" %}
+        <div class="user">
+          <a href="{{member.url}}"><div class="userimg" style="background-image:url('{{ site.baseurl }}/images/geoelements/team/{{ member.image }}')">
+          </div></a>
+          <h4><a href="{{member.url}}">{{ member.name }}</a></h4>
+          <a href="mailto:{{ member.email }}">{{ member.email }}</a>
+        </div>
+        {% endif %}
+      {% endif %}
+    {% endfor %}
+   </div>
+<!-- End team -->
+
+### MS students
+
+
+<!-- Team filled from _data/members.yaml-->
+   <div class="team">
+    {% for member in site.data.members %}
+      {% if member.role == "student" %}
+        {% if member.position == "MS" %}
+        <div class="user">
+          <a href="{{member.url}}"><div class="userimg" style="background-image:url('{{ site.baseurl }}/images/geoelements/team/{{ member.image }}')">
+          </div></a>
+          <h4><a href="{{member.url}}">{{ member.name }}</a></h4>
+          <a href="mailto:{{ member.email }}">{{ member.email }}</a>
+        </div>
+        {% endif %}
       {% endif %}
     {% endfor %}
    </div>
