@@ -10,11 +10,18 @@ Our research on Scientific Machine Learning (SciML) and differentiable programmi
 
 ## Open Source Code implementations of SciML
  
-* Graph Network Simulator (GNS): [![GitHub-GNS](https://img.shields.io/badge/Open_in-GitHub-blue?logo=github)](https://www.github.com/geoelements/gns) 
+### Graph Network Simulator (GNS)
+
+[![GitHub-GNS](https://img.shields.io/badge/Open_in-GitHub-blue?logo=github)](https://www.github.com/geoelements/gns) 
+
+![GNS](gns.svg)
 
 Graph Network-based Simulator (GNS) is a framework for developing generalizable, efficient, and accurate machine learning (ML)-based surrogate models for particulate and fluid systems using Graph Neural Networks (GNNs). GNS code is a viable surrogate for numerical methods such as Material Point Method, Smooth Particle Hydrodynamics and Computational Fluid dynamics. GNS exploits distributed data parallelism to achieve fast multi-GPU training. The GNS code can handle complex boundary conditions and multi-material interactions.
 
-* Differentiable MPM (DiffMPM) [![GitHub-DiffMPM](https://img.shields.io/badge/Open_in-GitHub-blue?logo=github)](https://www.github.com/geoelements/diffmpm) 
+
+### Differentiable MPM (DiffMPM) 
+
+[![GitHub-DiffMPM](https://img.shields.io/badge/Open_in-GitHub-blue?logo=github)](https://www.github.com/geoelements/diffmpm) 
 
 DiffMPM (Differentiable Material Point Method) is an innovative approach that brings differentiability to the Material Point Method (MPM). By enabling gradients to flow through MPM simulations, DiffMPM unlocks a new frontier in physics-based optimization and machine learning tasks, bridging the gap between computational mechanics and deep learning paradigms. Leveraging the core principles of MPM, which provides a robust mechanism for simulating complex materials and large-deformation problems, DiffMPM enhances this capability by allowing for end-to-end optimization of simulation parameters, thereby opening doors to novel applications in additive manufacturing, robotics, and design. Our research group delves deep into exploring the potential of DiffMPM and its implications in both theoretical advancements and practical applications.
 
