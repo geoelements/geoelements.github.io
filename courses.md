@@ -6,7 +6,7 @@ excerpt: "Gradute, undergraduate and other courses"
 
 ### Graduate courses
 
-* [CE397: Scientific Machine Learning](https://kks32-courses.github.io/sciml/README.html)
+* [CE397: Scientific Machine Learning](https://kks32-courses.github.io/sciml/README.html) 
 
 * [CE394M: Advanced analysis in geotechnical engineering](https://github.com/kks32-courses/ce394m)
 
@@ -14,7 +14,7 @@ excerpt: "Gradute, undergraduate and other courses"
 
 ### Undergraduate course
 
-* CE357: Introduction to Geotechnical Engineering 
+* CE357: Introduction to Geotechnical Engineering - [Teaching Geotech through murder mysteries](https://www.jotse.org/index.php/jotse/article/view/2014/742)
 
 * [CE311K: Introduction to programming](https://github.com/kks32-courses/ce311k) - watch [Lecture videos](https://www.youtube.com/watch?v=eVKPCWBlY8A&list=PLF6FCo2wh5eXt-r324VAXFdP2z1IJUbqs) and [Online book](https://kks32-courses.github.io/ce311k/README.html)
 
