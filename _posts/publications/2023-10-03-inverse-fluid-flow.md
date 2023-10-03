@@ -7,6 +7,7 @@ categories:
   - publications
 tags:
   - ml
+  - sciml
   - diff-programming
   - journal
 preprint: https://arxiv.org/pdf/2310.00810.pdf
