@@ -8,7 +8,7 @@ tags: [LBM]
 Our research on Scientific Machine Learning (SciML) and differentiable programming focuses on discovering new physics and developing fast algorithms to accelerate numerical simulations.
 
 
-## Code
+## Open Source Code implementations of SciML
  
 * Graph Network Simulator (GNS): [![GitHub-GNS](https://img.shields.io/badge/Open_in-GitHub-blue?logo=github)](https://www.github.com/geoelements/gns) 
 
