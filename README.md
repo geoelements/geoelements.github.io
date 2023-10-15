@@ -6,6 +6,7 @@
 
 ```
 bundle config set --local path './vendor/bundle'
+bundle config build.eventmachine --with-ldflags="-Wl,-undefined,dynamic_lookup"
 bundle install
 bundle exec jekyll build
 bundle exec jekyll serve --incremental

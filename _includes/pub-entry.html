@@ -40,10 +40,12 @@
     <img class="entry-image u-photo" src="{{ entry_image }}" alt="">
   {% endif %}
   {% unless page.show_excerpts == false %}
+  <!--
   <div class="entry-excerpt p-summary">
     {% if entry.excerpt %}
     {{ entry.excerpt | markdownify }}
     {% endif %}
   </div>
+  -->
   {% endunless %}
 </article>

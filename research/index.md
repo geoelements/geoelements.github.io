@@ -8,6 +8,8 @@ excerpt: "Geoelements exascale computational geomechanics research"
 
 Our research group is dedicated to exploring advanced numerical methods and innovative techniques that bridge the gap between traditional simulations and modern data-driven approaches. Below are our primary areas of focus:
 
+![](/images/geoelements/geoelements.svg)
+
 ### [Material Point Method]({{ site.url }}/research/mpm/)
 
 The Material Point Method (MPM) is a hybrid Eulerian-Lagrangian approach, which uses moving material points and computational nodes on a background mesh. This approach is very effective particularly in the context of large deformations.

@@ -1,6 +1,8 @@
 # Site navigation links
 - title: Research
   url: /research/
+- title: Projects
+  url: /projects/
 - title: Members
   url: /team/
 - title: Publications
