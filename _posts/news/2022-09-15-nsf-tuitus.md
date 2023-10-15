@@ -13,13 +13,14 @@ tags:
 
 Published on: 15 Sep 2022
 
-![NSF Cognitasium]({{site.url}}/images/news/2022/tuitus.png)
-
 # Building an Open Ecosystem for Natural Hazard Engineering Codes
 
 Natural hazards like floods, earthquakes, and wildfires threaten critical infrastructure across the United States. Advanced simulation tools developed by university researchers can help assess risk and inform policy decisions. However, many of these scientific software codes are created in an ad hoc manner without robust software development and testing principles.
 
-[The Tuitus Foundation](https://tuitus-ci.github.io/), funded by the National Science Foundation's (NSF) Pathways to Enable Open-Source Ecosystems (POSE) program, aims to create an inclusive, sustainable open-source ecosystem for natural hazard engineering codes. I'm leading this new project to promote best practices in open-source scientific software development.
+[The Tuitus Foundation](https://tuitus-ci.github.io/), funded by the National Science Foundation's (NSF) Pathways to Enable Open-Source Ecosystems (POSE) program, aims to create an inclusive, sustainable open-source ecosystem for natural hazard engineering codes. Dr. Kumar is leading this new project to promote best practices in open-source scientific software development.
+
+![NSF Cognitasium]({{site.url}}/images/news/2022/tuitus.png)
+
 
 Our project has three key goals:
 
