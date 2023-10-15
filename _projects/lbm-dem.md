@@ -23,3 +23,23 @@ In a follow-up study, we leveraged X-ray computed tomography (CT) experiments on
 
 Together, these advanced simulations provide unprecedented insights into the microscale physics controlling hysteresis in the SWCC. We elucidate the underlying pore-scale mechanisms and dependence on parameters like pore structure. Our findings will help improve the predictive capabilities of models that rely on the SWCC.
 
+## Code
+* The Multiphase LBM code is available at [GitHub](https://github.com/geoelements/mcmp-lbm)
+
+## Publications
+<!-- Publications filled automatically -->
+<div class="publications">
+{% assign researcharea = "swcc" %}
+{% assign postsbyTags = site.posts | where_exp: "post", "post.categories contains 'publications'" |
+group_by_exp:
+'posts', 'posts.tags' %}
+{% for postarticles in postsbyTags %}
+  {% if postarticles.name contains researcharea %}
+    <div class="entries-{{ page.entries_layout | default: 'list' }}">
+    {% for entry in postarticles.items %}
+      {% include pub-entry.html %}
+    {% endfor %}
+    </div>
+  {% endif %}
+{% endfor %}
+</div>
