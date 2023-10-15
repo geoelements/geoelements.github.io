@@ -1,5 +1,6 @@
 ---
 title: "Micromechanics of soil-water-characteristic curve (SWCC)"
+excerpt: "LBM simulations of hysteresis in SWCC."
 collection: projects
 image: 
   path: /images/projects/lbm/lbm-unsaturated.png
