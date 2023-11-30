@@ -4,7 +4,7 @@ excerpt: "Civil Engineering analysis technique of finite elements is used for th
 categories:
   - news
 image: 
-  thumbnail: /images/news/2021/child-birth.jpg
+  thumbnail: /images/grants/2021/child-birth.jpg
 tags: 
   - fem
   - biology
@@ -12,7 +12,7 @@ tags:
 
 Published on: 22 April 2021 
 
-![FEA pelvic floor]({{site.url}}/images/news/2021/child-birth.jpg)
+![FEA pelvic floor]({{site.url}}/images/grants/2021/child-birth.jpg)
 
 Despite advances in medicine and technology, childbirth isn’t likely to get much easier on women from a biological perspective.
 
@@ -22,6 +22,6 @@ The size of the pelvic floor and canal is key to keeping this balance. These opp
 
 “Although this dimension has made childbirth more difficult, we have evolved to a point where the pelvic floor and canal can balance supporting internal organs while also facilitating childbirth and making it as easy as possible,” said Krishna Kumar, an assistant professor in the Cockrell School of Engineering’s Department of Civil, Architectural and Environmental Engineering who led the research published this week in the journal Proceedings of the National Academy of Sciences.
 
-[Original news article](https://news.utexas.edu/2021/04/22/why-the-human-body-has-not-evolved-to-make-childbirth-easier-or-has-it/)
+[Original grants article](https://grants.utexas.edu/2021/04/22/why-the-human-body-has-not-evolved-to-make-childbirth-easier-or-has-it/)
 
 [PrePrint](https://doi.org/10.5281/zenodo.4718654)

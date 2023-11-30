@@ -2,9 +2,9 @@
 title: "NSF Award: POSE Phase 1: Tuitus"
 excerpt: "NSF OAC Awards Tuitus project to support open-source ecosystem in natural hazards engineering"
 categories:
-  - news
+  - grants
 image: 
-  thumbnail: /images/news/nsf.png
+  thumbnail: /images/grants/nsf.png
 tags: 
   - nsf
   - open-source
@@ -19,7 +19,7 @@ Natural hazards like floods, earthquakes, and wildfires threaten critical infras
 
 [The Tuitus Foundation](https://tuitus-ci.github.io/), funded by the National Science Foundation's (NSF) Pathways to Enable Open-Source Ecosystems (POSE) program, aims to create an inclusive, sustainable open-source ecosystem for natural hazard engineering codes. Dr. Kumar is leading this new project to promote best practices in open-source scientific software development.
 
-![NSF Cognitasium]({{site.url}}/images/news/2022/tuitus.png)
+![NSF Cognitasium]({{site.url}}/images/grants/2022/tuitus.png)
 
 
 Our project has three key goals:
