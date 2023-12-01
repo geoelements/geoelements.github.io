@@ -4,7 +4,7 @@ excerpt: "Civil Engineering analysis technique of finite elements is used for th
 categories:
   - news
 image: 
-  thumbnail: /images/grants/2021/child-birth.jpg
+  thumbnail: /images/news/2021/child-birth.jpg
 tags: 
   - fem
   - biology
@@ -12,7 +12,7 @@ tags:
 
 Published on: 22 April 2021 
 
-![FEA pelvic floor]({{site.url}}/images/grants/2021/child-birth.jpg)
+![FEA pelvic floor]({{site.url}}/images/news/2021/child-birth.jpg)
 
 Despite advances in medicine and technology, childbirth isn’t likely to get much easier on women from a biological perspective.
 
