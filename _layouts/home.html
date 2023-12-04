@@ -1,17 +1,78 @@
 ---
-layout: page
+layout: default
 ---
 
-{{ content }}
-
-<div class="entries-{{ page.entries_layout | default: 'list' }}">
-  {%- if site.plugins contains 'jekyll-paginate' and page.paginate or site.gems contains 'jekyll-paginate' and page.paginate -%}
-    {%- comment -%}
-      Add paginator.posts loop if jekyll-paginate plugin is enabled
-      and page.paginate == true
-    {%- endcomment -%}
-    {% include posts-paginated.html %}
-  {%- else -%}
-    {% include posts-limit.html %}
-  {%- endif -%}
-</div>
+<main id="home" class="home-content" aria-label="Content">  
+  <div class="home-wrapper">
+    <header class="page-header">
+      {% if page.id %}
+      {% assign title = page.title | markdownify | strip_html %}
+      {% else %}
+      {% assign title = page.title %}
+      {% endif %}
+      {% if page.link %}
+      <h1 id="page-title" class="page-title"><a href="{{ page.link }}">{{ title }} <span
+            class="link-arrow">&rarr;</span></a></h1>
+      {% else %}
+      <h1 id="page-title" class="page-title">{{ title }}</h1>
+      {% endif %}
+    </header>
+    <div class="page-content">
+      {{ content }}
+    </div>
+    <div>
+      <h3 style="text-align: center;">Latest News</h3>
+      <!-- Get all posts and show the top 3 recent posts -->
+      {% assign all_posts = site.posts | sort: 'date' | reverse %}
+      {% assign recent_posts = all_posts | to_array | slice: 0, 3 %}
+      <div class="course-grid">
+      {% for post in recent_posts %}
+      <div class="course-card">
+        <h4 class="entry-title" style="color: gray; text-transform: uppercase;">
+          {{ post.categories }}
+        </h4>          
+        {% if post.image %}
+          <img src="{{post.image.thumbnail}}" alt="news-thumbnail" class="course-image">
+        {% else %}
+          <img src="{{site.url}}/images/geoelements/logo.png" alt="news-thumbnail" class="course-image">
+        {% endif %}
+        <div class="card-content">
+          <div>
+            <h3 class="entry-title p-name">
+              <a href="{{ post.url }}">{{ post.title }}</a>
+            </h3>
+            <!-- check if post layout is publication-->
+            {% if post.layout == "publication" %}
+            <p class="entry-pub">
+              {% for author in post.authors %}
+                {{ author }}; 
+              {% endfor %}<br/>
+              <i>{{ post.journal }}</i>
+              <br />
+              {% if post.preprint %}
+              <span class="entry-preprint"></span>
+              <a href="{{ entry.preprint }}" class="button-preprint-small" target="_blank" rel="noopener noreferrer">View PDF</a> 
+              </span>
+              {% endif %}
+            </p>
+            {% else %}
+            <p>{{post.excerpt}}</p>
+            {% endif %}
+          </div>
+        </div>
+        <a href="{{post.url}}" class="launch-button">Read More</a>
+      </div>
+      {% endfor %}
+      </div>
+      <div class="section">
+          <h2>Join Us</h2>
+          <p>We are always on the lookout for passionate and talented individuals who share our vision for advancing engineering through computational sciences. If you are interested in joining our dynamic team, please read the information for <a href="https://www.geoelements.org/wiki/#/prospective-students">prospective candidates</a>.</p>
+      </div>
+      
+      <div class="section">
+          <h2>Contact Us</h2>
+          <p>For more information about our research group, collaborations, or inquiries, please reach out to <a href="mailto:krishnak@utexas.edu">Prof. Krishna Kumar</a></p>
+      </div>
+    </div>
+  </div>
+</main>

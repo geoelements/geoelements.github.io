@@ -1,7 +1,7 @@
 ---
 title: "Reflections on teaching engineering through murder mysteries"
 authors: "Kumar, K."
-journal: 
+journal: "Journal of Technology and Science Education"
 layout: publication
 categories: 
   - publications

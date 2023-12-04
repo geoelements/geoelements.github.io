@@ -1,5 +1,5 @@
 ---
-layout: page
+layout: home
 title: Welcome to Geoelements
 excerpt: "Extreme-scale computational geomechanics research"
 ---
@@ -30,9 +30,3 @@ Geoelements is an extreme-scale computational geomechanics research group at UT 
 </div>
 
 ---
-## Join Us
-
-We are always on the lookout for passionate and talented individuals who share our vision for advancing engineering through computational sciences. If you are interested in joining our dynamic team, please read the information for [prospective candidates](https://www.geoelements.org/wiki/#/prospective-students).
-
-## Contact Us
-For more information about our research group, collaborations, or inquiries, please reach out to[Prof. Krishna Kumar](mailto:krishnak@utexas.edu)

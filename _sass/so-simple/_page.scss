@@ -1,6 +1,13 @@
 /* ==========================================================================
    Page
    ========================================================================== */
+.home-wrapper {
+    margin: 0 auto;
+    padding-left: 1em;
+    padding-right: 1em;
+    max-width: $large;
+}
+  
 
 .page-wrapper {
   margin: 0 auto;
