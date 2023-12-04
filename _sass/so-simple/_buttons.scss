@@ -5,7 +5,12 @@
 /*
    Default button
    ========================================================================== */
+@charset "utf-8";
 
+@import "so-simple/functions";
+@import "so-simple/variables";
+@import "so-simple/notices";
+   
 .btn {
   /* default */
   display: inline-block;
@@ -61,4 +66,78 @@
   &--small {
     font-size: 0.75rem;
   }
+}
+
+.button-preprint {
+  padding: 8px 16px;
+  border: 2px solid #cc5500; // Example Burnt Orange border color
+  background-color: transparent; // No fill
+  color: #000509; // Text color matches border
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover,
+  &:focus {
+    background-color: #c0392b; // Fill on hover
+    color: white !important; // Text color on hover
+  }
+}
+
+.button-preprint-small {
+  @extend .button-preprint; // This will inherit all styles from .button-dataset
+  font-size: 12px; // Override font-size
+  margin: 0px 4px; // Override margin
+}
+
+.button-dataset {
+  padding: 8px 16px;
+  margin: 0 4px;
+  border: 2px solid #007ccf; // Example blue border color
+  background-color: transparent; // No fill
+  color: #000509; // Text color matches border
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover,
+  &:focus {
+    background-color: #3498db; // Fill on hover
+    color: white !important; // Text color on hover
+  }
+}
+
+.button-dataset-small {
+  @extend .button-dataset; // This will inherit all styles from .button-dataset
+  font-size: 12px; // Override font-size
+  margin: 0px 4px; // Override margin
+}
+
+.button-tag {
+  padding: 8px 16px;
+  margin: 0 4px;
+  border: 2px solid #a8a6a6; // Example Burnt Orange border color
+  background-color: transparent; // No fill
+  color: #000509; // Text color matches border
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+
+  &:hover,
+  &:focus {
+    background-color: #686767; // Fill on hover
+    color: white !important; // Text color on hover
+  }
+}
+
+.button-tag-small {
+  @extend .button-tag; // This will inherit all styles from .button-dataset
+  font-size: 12px; // Override font-size
+  margin: 0px 4px; // Override margin
 }

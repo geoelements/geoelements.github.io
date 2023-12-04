@@ -7,12 +7,7 @@
 <article class="entry entry">
   <header class="entry-header">
     <h3 class="entry-title p-name">
-      {% if entry.link %}
-      <a class="u-bookmark-of" href="{{ entry.link }}">{{ title }}</a> <a href="{{ entry.url | relative_url }}"
-        rel="bookmark"><span class="link-arrow">&rarr;</span></a>
-      {% else %}
-      <a href="{{ entry.url | relative_url }}" rel="bookmark">{{ title }}</a>
-      {% endif %}
+      <a href="{{ entry.url | relative_url }}">{{ title }}</a>
     </h3>
   </header>
   <p class="entry-pub">
@@ -22,14 +17,24 @@
     <i>{{ entry.journal }}</i>
   </p>
   <div class="entry-meta">
-    <span class="entry-preprint"><a href="{{ entry.preprint }}">{{entry.preprint}}</a></span>
+    {% if entry.preprint %}
+    <span class="entry-preprint"></span>
+    PDF: <a href="{{ entry.preprint }}" class="button-preprint-small" target="_blank" rel="noopener noreferrer">{{ entry.preprint }}</a> 
+    </span> 
+    {% endif %}
+    {% if entry.dataset %}
+    <span class="entry-dataset"></span>
+    Dataset: <a href="{{ entry.dataset }}" class="button-dataset-small" target="_blank" rel="noopener noreferrer">{{ entry.dataset }}</a> 
+    </span> 
+    {% endif %}
+    {% if entry.tags %}
+    Tags:
     {% for tag in entry.tags %}
       {% unless tag contains "journal" %}
-      <span class="entry-tag"> 
-        {{ tag }} 
-      </span>
+      <a href="{{site.url}}/tags/#{{ tag }}" class="button-tag-small" style="text-decoration:none;">{{ tag }}</a> 
       {% endunless %}
     {% endfor %}
+    {% endif %}
   </div>
   {% if entry.image.thumbnail %}
     {% assign entry_image = entry.image.thumbnail %}
