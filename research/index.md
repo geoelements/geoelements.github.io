@@ -63,3 +63,14 @@ Our research group is dedicated to exploring advanced numerical methods and inno
     <img src="/images/geoelements/geoelements.png" alt="Geoelements Research" style="max-width: 100%; height: auto;">
   </div>
 </div>
+
+---
+## Join Us
+
+We are always on the lookout for passionate and talented individuals who share our vision for advancing engineering through computational sciences. If you are interested in joining our dynamic team, please read the information for [prospective candidates](https://www.geoelements.org/wiki/#/prospective-students).
+
+## Contact Us
+For more information about our research group, collaborations, or inquiries, please reach out to[Prof. Krishna Kumar](mailto:krishnak@utexas.edu)
+
+Mailing Address:
+ECJ 9.227B, 301 E. Dean Keeton St. Stop C1700 Austin, TX 78712 
