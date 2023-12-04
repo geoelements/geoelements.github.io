@@ -359,3 +359,69 @@
     }
   }
 }
+
+.course-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  gap: 20px;
+  padding: 20px;
+}
+
+.course-card {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: stretch; /* Stretch children to fill the width of the container */
+  text-align: center; /* Center-align the text */
+  background-color: #f2eddc; /* Slightly lighter than the body for a "raised" look */
+  border: 1px solid #f2eddc; /* Slightly darker border to define edges */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05); /* Subtle shadow for a raised effect */
+  overflow: hidden;
+  margin: 16px 0; /* Add some margin to separate cards from each other */
+  transition: box-shadow 0.3s ease, transform 0.3s ease; /* Smooth transition for hover effect */
+}
+
+.course-card:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1); /* Larger shadow for hover effect */
+  transform: translateY(-2px); /* Slight raise on hover */
+}
+
+.course-image {
+  width: 100px; /* Fixed size for the image */
+  height: 100px; /* Fixed size for the image */
+  border-radius: 50%; /* Round shape */
+  object-fit: cover; /* Cover the area */
+  align-self: center; /* Center the image in the flex container */
+  margin-top: 16px; /* Space above the image */
+}
+
+.card-content {
+  flex: 1; /* Grow to fill the available space */
+  display: flex;
+  flex-direction: column; /* Stack children vertically */
+  justify-content: center; /* Center content vertically */
+  padding: 16px;
+}
+
+.launch-button {
+  background-color: #cc5500;
+  color: white;
+  padding: 12px;
+  text-decoration: none;
+  border-radius: 0 0 8px 8px;
+  border: none; /* Remove border if present */
+  width: 100%; /* Make the button full width */
+  box-sizing: border-box; /* Include padding in the width */
+  margin-top: auto; /* Push the button to the bottom */
+}
+
+/* If you have additional padding or border on the button, you may need to use calc to subtract that from the width */
+.launch-button {
+  width: calc(100% - (padding * 2) - (border-width * 2));
+}
+
+
+.launch-button:hover {
+  background-color: #ec6200;
+  color: black !important;
+}
