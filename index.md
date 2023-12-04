@@ -28,3 +28,8 @@ Geoelements is an extreme-scale computational geomechanics research group at UT 
     <p><b>XR</b>: Immersive Human-AI interaction paradigm with GenAI.</p>
   </div>
 </div>
+
+---
+## Join Us
+
+We are always on the lookout for passionate and talented individuals who share our vision for advancing engineering through computational sciences. If you are interested in joining our dynamic team, please read the information for [prospective candidates](https://www.geoelements.org/wiki/#/prospective-students).
