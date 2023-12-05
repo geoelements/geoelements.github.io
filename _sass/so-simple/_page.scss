@@ -415,3 +415,34 @@
   background-position: center center;
   background-size: cover;
 }
+
+.content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+}
+
+.image-container, .text-container {
+  box-sizing: border-box;
+  padding: 0 1em;
+}
+
+.image-container img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Default styles for small screens */
+.image-container, .text-container {
+  flex: 0 0 100%;
+  max-width: 100%;
+  margin-bottom: 1em;
+}
+
+/* Media query for larger screens */
+@media (min-width: 768px) { /* Adjust the min-width as needed */
+  .image-container, .text-container {
+    flex: 0 0 50%; /* Adjust to 50% for side-by-side layout */
+    max-width: 50%;
+  }
+}
