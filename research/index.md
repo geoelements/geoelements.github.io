@@ -43,11 +43,11 @@ Our research group is dedicated to exploring advanced numerical methods and inno
   </div>
 </div>
 
-<div style="display: flex; flex-wrap: wrap; align-items: flex-start;">
-  <div style="flex: 0 0 100%; max-width: 100%; box-sizing: border-box; padding: 0 1em; margin-bottom: 1em;">
-    <img src="/images/geoelements/geoelements.png" alt="Geoelements Research" style="max-width: 100%; height: auto;">
+<div class="content-wrapper">
+  <div class="image-container">
+    <img src="/images/geoelements/geoelements.png" alt="Geoelements Research">
   </div>
-  <div style="flex: 0 0 100%; max-width: 100%; box-sizing: border-box; padding: 0 1em;">
+  <div class="text-container">
     <p><b>LBM-DEM</b>: Multiphase unsaturated soil behavior.</p>
     <p><b>MPM</b>: Large-deformation modeling of granular flows.</p>
     <p><b>SciML</b>: Graph Network Simulators, Differentiable Programming, and knowledge discovery.</p>
