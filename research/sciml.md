@@ -2,7 +2,7 @@
 layout: page
 title: "Scientific Machine Learning and Differentiable Simulator"
 categories: research
-tags: [LBM]
+tags: [SciML, DiffMPM]
 ---
 
 Our research on Scientific Machine Learning (SciML) and differentiable programming focuses on discovering new physics and developing fast algorithms to accelerate numerical simulations.

@@ -1,5 +1,5 @@
 ---
-title: Research Projects
+title: Research
 layout: collection
 permalink: /projects/
 collection: projects

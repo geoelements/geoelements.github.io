@@ -1,9 +1,9 @@
 ---
-layout: page
 title: Research
-excerpt: "Geoelements exascale computational geomechanics research"
-#image:
-#  feature: geoelements/banner.png
+layout: collection
+permalink: /research/
+collection: projects
+entries_layout: grid
 ---
 
 Our research group is dedicated to exploring advanced numerical methods and innovative techniques that bridge the gap between traditional simulations and modern data-driven approaches. Below are our primary areas of focus:
@@ -39,20 +39,8 @@ Our research group is dedicated to exploring advanced numerical methods and inno
         <p>Our research on SciML focuses on graph network simulators and differentiable programming for solving inverse problems, discovering underlying physics using a data-driven approach, and AI-accelerated simulations.</p>
       </div>
     </div>
-    <a href="{{ site.url }}/research/ml/" class="launch-button">Discover SciML</a>
+    <a href="{{ site.url }}/research/sciml/" class="launch-button">Discover SciML</a>
   </div>
 </div>
 
-<div class="content-wrapper">
-  <div class="image-container">
-    <img src="/images/geoelements/geoelements.png" alt="Geoelements Research">
-  </div>
-  <div class="text-container">
-    <p><b>LBM-DEM</b>: Multiphase unsaturated soil behavior.</p>
-    <p><b>MPM</b>: Large-deformation modeling of granular flows.</p>
-    <p><b>SciML</b>: Graph Network Simulators, Differentiable Programming, and knowledge discovery.</p>
-    <p><b>Robotics</b>: Extra-terrestrial robotics with DiffSim.</p>
-    <p><b>Exascale sim</b>: AI-accelerated science.</p>
-    <p><b>XR</b>: Immersive Human-AI interaction paradigm with GenAI.</p>
-  </div>
-</div>
+<h2 style="text-align: center;">Research Spotlights</h2>
