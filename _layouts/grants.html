@@ -4,29 +4,20 @@ layout: page
 
 {{ content }}
 
-<ul class="taxonomy-index">
-  {% assign postsInYear = site.posts | where_exp: "post", "post.categories contains 'grants'" | group_by_exp: 'post',
-  'post.date | date: "%Y"' %}
-  {% for year in postsInYear %}
-  <li>
-    <a href="#{{ year.name }}">
-      <strong>{{ year.name }}</strong> <span class="taxonomy-count">{{ year.items | size }}</span>
-    </a>
-  </li>
+<div class="course-grid">
+  {% assign sorted_grants = site.posts | where_exp: "post", "post.categories contains 'grants'" | sort: 'date' | reverse %}
+  {% for post in sorted_grants %}
+    <div class="course-card" href="{{ post.url | relative_url }}">
+      <img src="{{ post.image.thumbnail }}" alt="{{ post.title }}" class="course-image">
+      <div class="card-content">
+        <div>
+          <h3>{{ post.title }}</h3>
+          <p class="course-date"><i>{{ post.date | date: "%B, %Y" }}</i></p>
+          <p>{{ post.excerpt | markdownify | truncatewords: 25 }}</p>
+        </div>
+      </div>
+      <a href="{{ post.url | relative_url }}" class="launch-button">Continue Reading</a>
+    </div>
   {% endfor %}
-</ul>
-
-{% assign postsByYear = site.posts | where_exp: "post", "post.categories contains 'grants'" | group_by_exp: 'post',
-'post.date | date: "%Y"' %}
-{% for year in postsByYear %}
-<section id="{{ year.name }}" class="taxonomy-section">
-  <h2 class="taxonomy-title">{{ year.name }}</h2>
-  <div class="entries-grid">
-    {% for entry in year.items %}
-    {% include entry.html %}
-    {% endfor %}
-  </div>
-  <a href="#page-title" class="back-to-top">{{ site.data.text[site.locale].back_to_top | default: 'Back to Top' }}
-    &uarr;</a>
-</section>
-{% endfor %}
+</div>
+<a href="#page-title" class="back-to-top">{{ site.data.text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
