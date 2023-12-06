@@ -6,7 +6,6 @@ excerpt: "Extreme-scale computational geomechanics research"
 
 Geoelements is an extreme-scale computational geomechanics research group at UT Austin. Our research focus is developing AI-accelerated numerical simulations for natural hazards and facilitate data-driven discoveries.
 
----
 <div class="content-wrapper">
   <div class="image-container">
     <img src="/images/geoelements/geoelements.png" alt="Geoelements Research">
@@ -20,6 +19,3 @@ Geoelements is an extreme-scale computational geomechanics research group at UT 
     <p><b>XR</b>: Immersive Human-AI interaction paradigm with GenAI.</p>
   </div>
 </div>
-
-
----
