@@ -18,12 +18,12 @@
   </p>
   <div class="entry-meta">
     {% if entry.preprint %}
-    <span class="entry-preprint"></span>
+    <span class="entry-preprint">
     PDF: <a href="{{ entry.preprint }}" class="button-preprint-small" target="_blank" rel="noopener noreferrer">{{ entry.preprint }}</a> 
     </span> 
     {% endif %}
     {% if entry.dataset %}
-    <span class="entry-dataset"></span>
+    <span class="entry-dataset">
     Dataset: <a href="{{ entry.dataset }}" class="button-dataset-small" target="_blank" rel="noopener noreferrer">{{ entry.dataset }}</a> 
     </span> 
     {% endif %}
