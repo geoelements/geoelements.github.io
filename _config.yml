@@ -36,10 +36,6 @@ google_fonts:
     weights: "400,400i,700,700i"
   - name: "Open Sans"
     weights: "400,400i,700,700i"    
-google_analytics: ""
-twitter:
-  username: "mmistakes"
-google_site_verification: ""
 
 # Liquid
 liquid:
