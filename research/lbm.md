@@ -36,17 +36,19 @@ strategy an efficient numerical procedure for the simulation of grain – fluid 
 <!-- Team filled from _data/members.yaml-->
    <div class="team">
     {% for member in site.data.members %}
-      {% for area in member.area %}
-        {% if area == "LBM" %}
-          <div class="user">
-            <div class="userimg" style="background-image:url('{{ site.baseurl }}/images/geoelements/team/{{ member.image }}')">
+      {% if member.role != "alumni" %}
+        {% for area in member.area %}
+          {% if area == "LBM" %}
+            <div class="user">
+              <div class="userimg" style="background-image:url('{{ site.baseurl }}/images/geoelements/team/{{ member.image }}')">
+              </div>
+              <h4>{{ member.name }}</h4>	
+              {{ member.position }}, {{member.uni }}<br/>
+    <a h   ref="mailto:{{ member.email }}">{{ member.email }}</a>
             </div>
-            <h4>{{ member.name }}</h4>	
-            {{ member.position }}, {{member.uni }}<br/>
-	 <a h   ref="mailto:{{ member.email }}">{{ member.email }}</a>
-          </div>
-        {% endif%}
-      {% endfor %}
+          {% endif%}
+        {% endfor %}
+      {% endif%}
     {% endfor %}
    </div>
 <!-- End team -->
