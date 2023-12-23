@@ -84,6 +84,18 @@
 # Visitors
 
 # Alumni
+- name: Anusha Vajapeyajula
+  role: alumni
+  position: MS
+  uni: UT Austin
+  url: /team/anusha-vajapeyajula
+  image: question.png
+  email: anushav@utexas.edu
+  pubname: "Vajapeyajula, A."
+  area:
+    - Heat-Transfer
+    - ML
+
 - name: Chahak Mehta
   role: alumni
   position: MS
