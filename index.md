@@ -16,6 +16,6 @@ Geoelements is an extreme-scale computational geomechanics research group at UT 
     <p><b>SciML</b>: Graph Network Simulators, Differentiable Programming, and knowledge discovery.</p>
     <p><b>Robotics</b>: Extra-terrestrial robotics with DiffSim.</p>
     <p><b>Exascale sim</b>: AI-accelerated science.</p>
-    <p><b>XR</b>: Immersive Human-AI interaction paradigm with GenAI.</p>
+    <p><b>XR</b>: Immersive visualization.</p>
   </div>
 </div>
