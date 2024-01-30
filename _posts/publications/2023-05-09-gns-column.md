@@ -1,7 +1,7 @@
 ---
 title: "Graph Neural Network-based surrogate model for granular flows"
 authors: "Choi, Y.J, Kumar, K."
-journal: 
+journal: "Computers and Geotechnics"
 layout: publication
 categories: 
   - publications
@@ -18,7 +18,7 @@ Accurate simulation of granular flow dynamics is crucial for assessing various g
 
 ## Cite
 
-> Choi, Y., & Kumar, K. (2024). Graph Neural Network-based surrogate model for granular flows. Computers and Geotechnics, 166, 106015.  https://doi.org/10.1016/j.compgeo.2023.106015
+> Choi, Y., & Kumar, K. (2024). Graph Neural Network-based surrogate model for granular flows. Computers and Geotechnics, 166, 106015.  [https://doi.org/10.1016/j.compgeo.2023.106015](https://doi.org/10.1016/j.compgeo.2023.106015)
 
 ### BibLaTeX
 
