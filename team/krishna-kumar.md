@@ -22,10 +22,8 @@ Krishna Kumar is an Assistant Professor at the Civil, Architecture, and Environm
 
 ## Media highlights
 
+* [2024: NSF CAREER](https://caee.utexas.edu/news/1132-krishna-kumar-receives-nsf-career-award)
 * [2024: UT Guiding AI](https://magazine.engr.utexas.edu/2023/guiding-ai)
-
 * [2023: UT NSF AI in Civil Engineering](https://cockrell.utexas.edu/news/archive/9772-new-community-brings-together-experts-in-ai-civil-engineering-cyberinfrastructure)
-
 * [2023: TACC Texascale: AI Tools for Natural Hazards Research](https://texascale.org/2023/powering-discoveries/ai-tools-for-natural-hazards-research/)
-
 * [2021: Why the human body has not evolved to make childbirrth easier or has it?](https://news.utexas.edu/2021/04/22/why-the-human-body-has-not-evolved-to-make-childbirth-easier-or-has-it/)
