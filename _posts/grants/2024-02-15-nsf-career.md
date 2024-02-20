@@ -1,6 +1,6 @@
 ---
 title: "NSF CAREER Award"
-excerpt: "NSF CAREER Award."
+excerpt: "NSF OAC Awards CAREER Award to support AI-accelerated simulations"
 categories:
   - grants
 image: 
@@ -18,9 +18,10 @@ Published on: February 2023
 # HayaRupu: Accelerating Scientific Discoveries in Natural Hazard Engineering
 
 Natural hazards such as landslides, floods, and earthquakes pose significant risks to communities worldwide, challenging the resilience of critical infrastructure and the safety of populations. In the face of these threats, the HayaRupu project emerges as a groundbreaking initiative aimed at harnessing the power of Artificial Intelligence (AI) to transform natural hazard engineering. Funded by forward-thinking organizations seeking to leverage technological advancements for societal benefit, HayaRupu is spearheaded by a team of dedicated researchers and engineers committed to innovation and excellence in scientific discovery.
-Advancing Natural Hazard Engineering through AI
 
 The core ambition of HayaRupu is to accelerate advancements in engineering and scientific research with a specific focus on landslide hazards. This initiative is pioneering an AI-accelerated scientific discovery loop, an innovative framework that integrates AI into every stage of scientific inquiry. By employing machine learning (ML) techniques for advanced pattern recognition and anomaly detection, HayaRupu aims to unearth new insights from complex datasets, addressing pivotal knowledge gaps in natural hazard engineering.
+
+![NSF CAREER]({{site.url}}/images/grants/2024/hayarupu.png)
 
 ## Key Objectives of the HayaRupu Project
 
