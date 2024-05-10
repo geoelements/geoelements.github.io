@@ -42,17 +42,6 @@
     - ML
     - Earthquakes
 
-- name: Leila Roshanali
-  role: student
-  position: PhD candidate
-  uni: UT Austin
-  url: /team/leila-roshanali
-  image: leila.png
-  email: leila.roshanali@utexas.edu
-  pubname: "Roshanali, L."
-  area: 
-    - ML
-
 - name: Brent Sordo
   role: student
   position: PhD candidate
