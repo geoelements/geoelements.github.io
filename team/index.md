@@ -22,12 +22,12 @@ excerpt: "Geoelements research team"
    </div>
 <!-- End team -->
 
+### Postdoctoral Research Fellows
 
-
-<!-- Team filled from _data/members.yaml
+<!-- Team filled from _data/members.yaml -->
    <div class="team">
     {% for member in site.data.members %}
-      {% if member.role == "researcher" %}
+      {% if member.role == "postdoc" %}
        <div class="user">
          <div class="userimg" style="background-image:url('{{ site.baseurl }}/images/geoelements/team/{{ member.image }}')">
          </div>
@@ -38,7 +38,7 @@ excerpt: "Geoelements research team"
       {% endif %}
     {% endfor %}
    </div>
-<!-- End team -->
+
 
 ### Ph.D. students
 
@@ -66,7 +66,7 @@ excerpt: "Geoelements research team"
    <div class="team">
     {% for member in site.data.members %}
       {% if member.role == "student" %}
-        {% if member.position == "MS" %}
+        {% if member.position == "MS student" %}
         <div class="user">
           <a href="{{member.url}}"><div class="userimg" style="background-image:url('{{ site.baseurl }}/images/geoelements/team/{{ member.image }}')">
           </div></a>
