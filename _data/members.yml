@@ -17,6 +17,30 @@
 
 # Researchers
 
+# Postdocs
+- name: Dr. Xingjian Li
+  role: postdoc
+  position: Postdoctoral Fellow
+  uni: UT Austin
+  url: /team/xingjian-li
+  image: xingjian.jpg
+  email: xingjian.li@austin.utexas.edu
+  pubname: "Li, X."
+  area: 
+    - SciML
+
+# Postdocs
+- name: Dr. Hassan Iqbal
+  role: postdoc
+  position: Postdoctoral Fellow
+  uni: UT Austin
+  url: /team/hassan-iqbal
+  image: question.png
+  email: hassan.iqbal@utexas.edu
+  pubname: "Iqbal, H."
+  area: 
+    - SciML
+
 # PhD Students
 
 - name: Cheng-Hsi Hsiao
@@ -31,6 +55,46 @@
     - ML
     - Earthquakes
 
+- name: Naveen Raj Manoharan
+  role: student
+  position: PhD candidate
+  uni: UT Austin
+  url: /team/naveen-raj
+  image: question.png
+  email: naveenrajmanoharan@my.utexas.edu
+  pubname: "Manoharan, N. R."
+  area: 
+    - Robotics
+
+
+#Masters students
+
+- name: Stepan Tretiakov
+  role: student
+  position: MS Student
+  uni: UT Austin
+  url: /team/stepan-tretiakov
+  image: question.png
+  email: sdt2344@my.utexas.edu
+  pubname: "Tretiakov, S."
+  area: 
+    - SciML
+
+
+- name: Raghav Pant
+  role: student
+  position: MS Student
+  uni: UT Austin
+  url: /team/raghav-pant
+  image: question.png
+  email: raghav.pant@utexas.edu
+  pubname: "Pant, R."
+  area: 
+    - SciML
+
+# Visitors
+
+# Alumni
 - name: Brent Sordo
   role: student
   position: PhD candidate
@@ -39,17 +103,11 @@
   image: question.png
   email: bsordo@utexas.edu
   pubname: "Sordo, B."
+  year: 2024
   area: 
     - MPM
     - Earthquakes
 
-
-#Masters students
-
-
-# Visitors
-
-# Alumni
 - name: Anusha Vajapeyajula
   role: alumni
   position: MS
@@ -58,6 +116,7 @@
   image: question.png
   email: anushav@utexas.edu
   pubname: "Vajapeyajula, A."
+  year: 2023
   area:
     - Heat-Transfer
     - ML
