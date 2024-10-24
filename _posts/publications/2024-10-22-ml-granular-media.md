@@ -1,6 +1,6 @@
 ---
 title: " Machine Learning Aided Modeling of Granular Materials: A Review "
-authors: "Ingebrand, T., Thorpe, A. J., Goswami, S., Kumar, K., Topcu, U."
+authors: "Wang, M., Kumar, K., Feng, Y. T., Qu, T., Wang, M."
 journal: 
 layout: publication
 categories: 
