@@ -1,5 +1,5 @@
 ---
-title: " Machine Learning Aided Modeling of Granular Materials: A Review "
+title: "Machine Learning Aided Modeling of Granular Materials: A Review "
 authors: "Wang, M., Kumar, K., Feng, Y. T., Qu, T., Wang, M."
 journal: 
 layout: publication
