@@ -1,5 +1,5 @@
 ---
-title: "A hybrid Finite Element and Material Point Method for modeling liquefaction-induced tailings dam failures"
+title: "Measuring the effective stress parameter using the multiphase lattice Boltzmann method and investigating the source of its hysteresis"
 authors: "Hosseini, R., Kumar, K."
 journal: 
 layout: publication
