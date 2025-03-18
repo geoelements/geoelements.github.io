@@ -22,6 +22,7 @@ Krishna Kumar is an Assistant Professor at the Civil, Architecture, and Environm
 
 ## Media highlights
 
+* [2025: ASCE GI Pi Day -- AI in Geotechnical Engineering](https://www.youtube.com/watch?v=_C5zrJKM1xI)
 * [2024: NSF CAREER](https://caee.utexas.edu/news/1132-krishna-kumar-receives-nsf-career-award)
 * [2024: UT Guiding AI](https://magazine.engr.utexas.edu/2023/guiding-ai)
 * [2023: UT NSF AI in Civil Engineering](https://cockrell.utexas.edu/news/archive/9772-new-community-brings-together-experts-in-ai-civil-engineering-cyberinfrastructure)
