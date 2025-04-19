@@ -1,0 +1,486 @@
+<!DOCTYPE html>
+<!--
+    So Simple Jekyll Theme 3.2.0
+    Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+    Free for personal and commercial use under the MIT license
+    https://github.com/mmistakes/so-simple-theme/blob/master/LICENSE
+-->
+<html lang="en-US" class="no-js">
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-N4S2WYVH69"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-N4S2WYVH69');
+  </script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  
+
+  
+    <title>Geoelements</title>
+    <meta name="description" content="Exascale computational geomechanics research group at UT Austin">
+    <link rel="canonical" href="http://localhost:4000/team/qiuyu-wang">
+  
+  <script>
+    /* Cut the mustard */
+    if ( 'querySelector' in document && 'addEventListener' in window ) {
+      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
+    }
+  </script>
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/skins/default.css">
+  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i|Open+Sans:400,400i,700,700i">
+  <!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+</head>
+
+<body
+  class="layout--member  ">
+  <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#primary-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+  
+<div class="navigation-wrapper">
+  <a href="#menu-toggle" id="menu-toggle">Menu</a>
+  <nav id="primary-nav" class="site-nav animated drop">
+    <ul>
+      <li><a href="/"><img src="/images/geoelements/logo.png" width=40> Home</a></li><li><a href="/research/">Research</a></li><li><a href="/team/">Team</a></li><li><a href="/publications/">Publications</a></li><li><a href="/courses/">Courses</a></li><li><a href="/grants/">Grants</a></li><li><a href="https://www.geoelements.org/wiki/#">Wiki</a></li><li><a href="https://www.chishiki-ai.org/">Chishiki-AI</a></li><li><a href="/search/">Search</a></li></ul>
+  </nav>
+</div><!-- /.navigation-wrapper -->
+
+
+  <main id="main" class="main-content" aria-label="Content">
+  <article class="h-entry">
+    
+    <div class="page-wrapper">
+      <header class="page-header">
+        
+        
+        <h1 id="page-title" class="page-title p-name">
+</h1>
+        
+      </header>
+
+      
+      <div class="team">
+        <div class="user">
+          <div class="userimg" style="background-image:url('/images/geoelements/team/qiuyu.jpg')">
+          </div>
+          <h4>Qiuyu Wang</h4>	
+          <a href="mailto:wangqiuyu@utexas.edu">wangqiuyu@utexas.edu</a>
+        </div>
+      </div>
+      <div class="page-content">
+        <div class="e-content">
+          
+
+          <br/>
+          <h2 class="page-publications">Publications</h2>
+          
+
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              <div class="entries-list">
+                
+                  
+
+<article class="entry entry">
+  <header class="entry-header">
+    <h3 class="entry-title p-name">
+      <a href="/publications/inverse-fluid-flow/">An inverse analysis of fluid flow through granular media using differentiable lattice Boltzmann method
+</a>
+    </h3>
+  </header>
+  <p class="entry-pub">
+    
+      Wang, Q., Kumar, K.; 
+    <br/>
+    <i></i>
+  </p>
+  <div class="entry-meta">
+    
+    <span class="entry-preprint">
+    PDF: <a href="https://arxiv.org/pdf/2310.00810.pdf" class="button-preprint-small" target="_blank" rel="noopener noreferrer">https://arxiv.org/pdf/2310.00810.pdf</a> 
+    </span> 
+    
+    
+    
+    Tags:
+    
+      
+      <a href="http://localhost:4000/tags/#ml" class="button-tag-small" style="text-decoration:none;">ml</a> 
+      
+    
+      
+      <a href="http://localhost:4000/tags/#sciml" class="button-tag-small" style="text-decoration:none;">sciml</a> 
+      
+    
+      
+      <a href="http://localhost:4000/tags/#diff-programming" class="button-tag-small" style="text-decoration:none;">diff-programming</a> 
+      
+    
+      
+    
+    
+  </div>
+  
+  
+  <!--
+  <div class="entry-excerpt p-summary">
+    
+    <p>In this study, we introduce an effective method for the inverse analysis of fluid flow problems,
+focusing on accurately determining boundary conditions and characterizing the physical properties of gran-
+ular media, such as permeability, and fluid components, like viscosity. Our primary aim is to deduce either
+constant pressure head or pressure profiles, given the known velocity field at a steady-state flow through
+a conduit containing obstacles, including walls, spheres, and grains. We employ the lattice Boltzmann
+Method (LBM) combined with Automatic Differentiation (AD), facilitated by the GPU-capable Taichi
+programming language (AD-LBM). A lightweight tape is utilized to generate gradients for the entire LBM
+simulation, enabling end-to-end backpropagation. For complex flow paths in porous media, our AD-LBM
+approach accurately estimates the boundary conditions leading to observed steady-state velocity fields and
+consequently derives macro-scale permeability and fluid viscosity. Our method demonstrates significant ad-
+vantages in terms of prediction accuracy and computational efficiency, offering a powerful tool for solving
+inverse fluid flow problems in various applications</p>
+
+    
+  </div>
+  -->
+  
+</article>
+                
+              </div>
+              <a href="#page-title" class="back-to-top">Back to Top
+                  &uarr;</a>
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              <div class="entries-list">
+                
+                  
+
+<article class="entry entry">
+  <header class="entry-header">
+    <h3 class="entry-title p-name">
+      <a href="/publications/multiphase-lbm/">Multiphase lattice Boltzmann modeling of cyclic water retention behavior in unsaturated sand based on X-ray Computed Tomography
+</a>
+    </h3>
+  </header>
+  <p class="entry-pub">
+    
+      Wang, Q., Milatz, M., Hosseini, R., Kumar, K; 
+    <br/>
+    <i></i>
+  </p>
+  <div class="entry-meta">
+    
+    <span class="entry-preprint">
+    PDF: <a href="https://arxiv.org/abs/2209.11393" class="button-preprint-small" target="_blank" rel="noopener noreferrer">https://arxiv.org/abs/2209.11393</a> 
+    </span> 
+    
+    
+    
+    Tags:
+    
+      
+      <a href="http://localhost:4000/tags/#swcc" class="button-tag-small" style="text-decoration:none;">swcc</a> 
+      
+    
+      
+      <a href="http://localhost:4000/tags/#lbm" class="button-tag-small" style="text-decoration:none;">lbm</a> 
+      
+    
+      
+      <a href="http://localhost:4000/tags/#porescale" class="button-tag-small" style="text-decoration:none;">porescale</a> 
+      
+    
+    
+  </div>
+  
+  
+  <!--
+  <div class="entry-excerpt p-summary">
+    
+    <p>The water retention curve (WRC) defines the relationship between matric suction and saturation and is a key function for determining the hydro-mechanical behavior of unsaturated soils. We investigate possible microscopic origins of the water retention behavior of granular soils using both Computed Tomography (CT) experiment and multiphase lattice Boltzmann Method (LBM). We conduct a CT experiment on Hamburg sand to obtain its WRC and then run LBM simulations based on the CT grain skeleton. The multiphase LBM simulations capture the hysteresis and pore-scale behaviors of WRC observed in the CT experiment. Using LBM, we observe that the spatial distribution and morphology of gas clusters varies between drainage and imbibition paths and is the underlying source of the hysteresis. During drainage, gas clusters congregate at the grain surface; the local suction increases when gas clusters enter through small pore openings and decreases when gas clusters enter through large pore openings. Whereas, during imbibition, gas clusters disperse in the liquid; the local suction decreases uniformly. Large pores empty first during drainage and small pores fill first during imbibition. The pore-based WRC shows that an increase in pore size causes a decrease in suction during drainage and imbibition, and an increase in hysteresis.</p>
+
+    
+  </div>
+  -->
+  
+</article>
+                
+              </div>
+              <a href="#page-title" class="back-to-top">Back to Top
+                  &uarr;</a>
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+              <div class="entries-list">
+                
+                  
+
+<article class="entry entry">
+  <header class="entry-header">
+    <h3 class="entry-title p-name">
+      <a href="/publications/effect-of-slope-angle-on-the-runout-evolution-of-granular-column-collapse-for-varying-initial-volumes/">Effect Of Slope Angle On The Runout Evolution of Granular Column Collapse for Varying Initial Volumes
+</a>
+    </h3>
+  </header>
+  <p class="entry-pub">
+    
+      Wang, Q., Hosseini, R., Kumar, K.; 
+    <br/>
+    <i>Proceedings of the 20th International Conference on Soil Mechanics and Geotechnical Engineering, Sydney 2021</i>
+  </p>
+  <div class="entry-meta">
+    
+    <span class="entry-preprint">
+    PDF: <a href="https://arxiv.org/abs/2108.12866" class="button-preprint-small" target="_blank" rel="noopener noreferrer">https://arxiv.org/abs/2108.12866</a> 
+    </span> 
+    
+    
+    
+    Tags:
+    
+      
+      <a href="http://localhost:4000/tags/#conference" class="button-tag-small" style="text-decoration:none;">conference</a> 
+      
+    
+      
+      <a href="http://localhost:4000/tags/#granular-flow" class="button-tag-small" style="text-decoration:none;">granular-flow</a> 
+      
+    
+      
+      <a href="http://localhost:4000/tags/#dem" class="button-tag-small" style="text-decoration:none;">dem</a> 
+      
+    
+      
+      <a href="http://localhost:4000/tags/#lbm" class="button-tag-small" style="text-decoration:none;">lbm</a> 
+      
+    
+    
+  </div>
+  
+  
+  <!--
+  <div class="entry-excerpt p-summary">
+    
+    <p>In nature, submarine slope failures usually carry thousands of cubic-meters of sediments across extremely long distances and cause tsunamis and damages to offshore structures. This paper uses the granular column collapse experiment to investigate the effect of slope angle on the runout behavior of submarine granular landslides for different initial volumes. A two-dimensional  coupled  lattice  Boltzman  and  discrete  element  method  (LBM-DEM)  approach  is  adopted  for  numerically modeling the granular column collapse. Columns with four different slope angles and six different volumes are modelled under both  dry  and  submerged  conditions.  The  effects  of  hydrodynamic  interactions,  including  the  generation  of  excess  pore pressures, hydroplaning, and drag forces and formation of turbulent vortices, are used to explain the difference in the runout behavior of the submerged columns compared to the dry columns. The results show that at any given slope angle, there is a threshold volume above which the submerged columns have a larger final runout compared to their dry counterpart, and this threshold volume decreases with slope angle.</p>
+
+    
+  </div>
+  -->
+  
+</article>
+                
+                  
+
+<article class="entry entry">
+  <header class="entry-header">
+    <h3 class="entry-title p-name">
+      <a href="/publications/effect-volume-runout-submerged-columns/">Effect of Initial Volume on the Run-Out Behavior of Submerged Granular Columns
+</a>
+    </h3>
+  </header>
+  <p class="entry-pub">
+    
+      Wang, Q., Hosseini, R., Kumar, K.; 
+    <br/>
+    <i>GeoCongress 2021, Dallas, USA</i>
+  </p>
+  <div class="entry-meta">
+    
+    <span class="entry-preprint">
+    PDF: <a href="https://arxiv.org/abs/2011.03129" class="button-preprint-small" target="_blank" rel="noopener noreferrer">https://arxiv.org/abs/2011.03129</a> 
+    </span> 
+    
+    
+    
+    Tags:
+    
+      
+      <a href="http://localhost:4000/tags/#conference" class="button-tag-small" style="text-decoration:none;">conference</a> 
+      
+    
+      
+      <a href="http://localhost:4000/tags/#granular-flow" class="button-tag-small" style="text-decoration:none;">granular-flow</a> 
+      
+    
+      
+      <a href="http://localhost:4000/tags/#dem" class="button-tag-small" style="text-decoration:none;">dem</a> 
+      
+    
+      
+      <a href="http://localhost:4000/tags/#lbm" class="button-tag-small" style="text-decoration:none;">lbm</a> 
+      
+    
+    
+  </div>
+  
+  
+  <!--
+  <div class="entry-excerpt p-summary">
+    
+    <p>Submarine landslides transport thousands of cubic meters of sediment across continental shelves even at slopes as low as 1° and can cause significant casualty and damage to infrastructure. The run-out mechanism in a submarine landslide is affected by factors such as the initial packing density, permeability, slope angle, and initial volume. While past studies have focused on the influence of density, permeability, and slope angle on the granular column collapse, the impact of volume on the run-out characteristics has not been investigated. This study aims to understand how the initial volume affects the run-out using a two-dimensional coupled lattice Boltzman and discrete element (LBM-DEM) method. The coupled LBM-DEM approach allows simulating fluid flow at the pore-scale resolution to understand the grain-scale mechanisms driving the complex continuum-scale response in the granular column collapse. For submerged granular column collapse, the run-out mechanism is heavily influenced by the interaction between the grains and the surrounding fluid. The development of negative pore pressures during shearing and hydrodynamic drag forces inhibit the flow. On the other hand, entrainment of water resulting in hydroplaning enhances the flow. With an increase in volume, the interaction between the grains and the surrounding fluid varies, causing changes in the run-out behavior. For smaller volumes, the forces inhibiting the underwater flow predominates, resulting in shorter run-outs than their dry counterparts. At large volumes, hydroplaning results in larger run-out than the dry cases, despite the inhibiting effects of drag forces and negative pore pressures.</p>
+
+    
+  </div>
+  -->
+  
+</article>
+                
+              </div>
+              <a href="#page-title" class="back-to-top">Back to Top
+                  &uarr;</a>
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+            
+          
+        </div>
+        <nav class="page-pagination" role="navigation">
+  
+
+  
+</nav>
+
+      </div>
+    </div>
+  </article>
+</main>
+
+  <footer id="footer" class="site-footer"><span class="social-icons"><a class="social-icon" href="https://github.com/geoelements"><i class="fab fa-github-square fa-2x"
+        title="GitHub"></i></a><a class="social-icon" href="/atom.xml"><i class="fas fa-rss-square fa-2x"
+        title="Feed"></i></a></span><span class="copyright">
+    
+    <p>&copy; 2025 Geoelements</p>
+    
+  </span>
+</footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
+<!-- MathJax -->
+
+<script>
+// http://docs.mathjax.org/en/latest/upgrading/v2.html
+MathJax = {
+  tex: {
+      tags: "ams"    // eq numbering options: none, ams, all
+  },
+  options: {
+    renderActions: {
+      // for mathjax 3, handle <script "math/tex"> blocks inserted by kramdown
+      find: [10, function (doc) {
+        for (const node of document.querySelectorAll('script[type^="math/tex"]')) {
+          const display = !!node.type.match(/; *mode=display/);
+          const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+          const text = document.createTextNode('');
+          node.parentNode.replaceChild(text, node);
+          math.start = {node: text, delim: '', n: 0};
+          math.end = {node: text, delim: '', n: 0};
+          doc.math.push(math);
+        }
+      }, '']
+    }
+  }
+}
+</script>
+
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+
+</body>
+
+</html>

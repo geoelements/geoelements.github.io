@@ -1,0 +1,971 @@
+<!DOCTYPE html>
+<!--
+    So Simple Jekyll Theme 3.2.0
+    Copyright 2013-2019 Michael Rose - mademistakes.com | @mmistakes
+    Free for personal and commercial use under the MIT license
+    https://github.com/mmistakes/so-simple-theme/blob/master/LICENSE
+-->
+<html lang="en-US" class="no-js">
+<head>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-N4S2WYVH69"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+  
+    gtag('config', 'G-N4S2WYVH69');
+  </script>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  
+
+  
+    <title>Material Point Method</title>
+    <meta name="description" content="Exascale computational geomechanics research group at UT Austin">
+    <link rel="canonical" href="http://localhost:4000/research/mpm/">
+  
+  <script>
+    /* Cut the mustard */
+    if ( 'querySelector' in document && 'addEventListener' in window ) {
+      document.documentElement.className = document.documentElement.className.replace(/\bno-js\b/g, '') + 'js';
+    }
+  </script>
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/skins/default.css">
+  
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,400i,700,700i|Open+Sans:400,400i,700,700i">
+  <!-- start custom head snippets -->
+
+<!-- insert favicons. use http://realfavicongenerator.net/ -->
+
+<!-- end custom head snippets -->
+
+</head>
+
+<body
+  class="layout--page  material-point-method">
+  <nav class="skip-links">
+  <h2 class="screen-reader-text">Skip links</h2>
+  <ul>
+    <li><a href="#primary-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
+    <li><a href="#main" class="screen-reader-shortcut">Skip to content</a></li>
+    <li><a href="#footer" class="screen-reader-shortcut">Skip to footer</a></li>
+  </ul>
+</nav>
+
+  
+<div class="navigation-wrapper">
+  <a href="#menu-toggle" id="menu-toggle">Menu</a>
+  <nav id="primary-nav" class="site-nav animated drop">
+    <ul>
+      <li><a href="/"><img src="/images/geoelements/logo.png" width=40> Home</a></li><li><a href="/research/">Research</a></li><li><a href="/team/">Team</a></li><li><a href="/publications/">Publications</a></li><li><a href="/courses/">Courses</a></li><li><a href="/grants/">Grants</a></li><li><a href="https://www.geoelements.org/wiki/#">Wiki</a></li><li><a href="https://www.chishiki-ai.org/">Chishiki-AI</a></li><li><a href="/search/">Search</a></li></ul>
+  </nav>
+</div><!-- /.navigation-wrapper -->
+
+
+  <main id="main" class="main-content" aria-label="Content">
+  <article>
+    <!---->
+    <div class="page-wrapper">
+      <header class="page-header">
+        
+        
+        <h1 id="page-title" class="page-title">Material Point Method</h1>
+        
+      </header>
+      <div class="page-content">
+        <p>Material Point Method (MPM) is a particle based method that represents the
+material as a collection of material points, and their deformations are
+determined by Newton’s laws of motion. The MPM is a hybrid Eulerian-Lagrangian
+approach, which uses moving material points and computational nodes on a background mesh.
+This approach is very effective particularly in the context of large deformations.</p>
+
+<p><img src="/research/mpm-algorithm.png" alt="algorithm" /></p>
+
+<blockquote>
+  <p>Illustration of the MPM algorithm (1) A representation of material points overlaid on
+a computational grid. Arrows represent material point state vectors (mass, volume, velocity, etc.)
+being projected to the nodes of the computational grid. (2) The equations of motion are solved onto
+the nodes, resulting in updated nodal velocities and positions. (3) The updated nodal kinematics
+are interpolated back to the material points. (4) The state of the material points is updated, and the
+computational grid is reset</p>
+</blockquote>
+
+<h2 id="mpm-online-course-book">MPM Online course book</h2>
+<p>Learn to code MPM with Python <a href="https://www.geoelements.org/LearnMPM/intro.html">online book</a></p>
+
+<h2 id="cb-geo-mpm-code">CB-Geo MPM code</h2>
+
+<ul>
+  <li>The CB-Geo MPM code is available at <a href="https://github.com/cb-geo/mpm">GitHub</a></li>
+</ul>
+
+<h2 id="documentation">Documentation</h2>
+
+<ul>
+  <li><a href="https://mpm.cb-geo.com">MPM documentation</a></li>
+</ul>
+
+<h2 id="team">Team</h2>
+<!-- Team filled from _data/members.yaml-->
+<div class="team">
+    
+      
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+            <div class="user">
+              <div class="userimg" style="background-image:url('/images/geoelements/team/krishna.jpg')">
+              </div>
+              <h4>Krishna Kumar</h4>	
+              Assistant Professor, UT Austin<br />
+    <a h="" ref="mailto:krishnak@utexas.edu">krishnak@utexas.edu</a>
+            </div>
+          
+        
+      
+    
+      
+        
+          
+        
+          
+        
+      
+    
+      
+        
+          
+        
+          
+        
+      
+    
+      
+        
+          
+        
+          
+        
+      
+    
+      
+        
+          
+        
+          
+        
+      
+    
+      
+        
+          
+        
+          
+        
+      
+    
+      
+        
+          
+        
+          
+        
+      
+    
+      
+        
+          
+            <div class="user">
+              <div class="userimg" style="background-image:url('/images/geoelements/team/question.png')">
+              </div>
+              <h4>Brent Sordo</h4>	
+              PhD candidate, UT Austin<br />
+    <a h="" ref="mailto:bsordo@utexas.edu">bsordo@utexas.edu</a>
+            </div>
+          
+        
+          
+        
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+      
+    
+   </div>
+<!-- End team -->
+
+<h2 id="publications">Publications</h2>
+<!-- Publications filled automatically -->
+<div class="publications">
+
+
+
+  
+    <div class="entries-list">
+    
+      
+
+<article class="entry entry">
+  <header class="entry-header">
+    <h3 class="entry-title p-name">
+      <a href="/publications/fem-mpm-runout-eq/">Runout of liquefaction-induced tailings dam failure: Influence of earthquake motions and residual strength
+</a>
+    </h3>
+  </header>
+  <p class="entry-pub">
+    
+      Sordo, B., Rathje, E., Kumar, K.; 
+    <br />
+    <i></i>
+  </p>
+  <div class="entry-meta">
+    
+    <span class="entry-preprint">
+    PDF: <a href="https://arxiv.org/abs/2503.12727" class="button-preprint-small" target="_blank" rel="noopener noreferrer">https://arxiv.org/abs/2503.12727</a> 
+    </span> 
+    
+    
+    
+    Tags:
+    
+      
+    
+      
+      <a href="http://localhost:4000/tags/#mpm" class="button-tag-small" style="text-decoration:none;">mpm</a> 
+      
+    
+      
+      <a href="http://localhost:4000/tags/#fem" class="button-tag-small" style="text-decoration:none;">fem</a> 
+      
+    
+    
+  </div>
+  
+  
+  <!--
+  <div class="entry-excerpt p-summary">
+    
+    <p>This study utilizes a hybrid Finite Element Method (FEM) and Material Point Method (MPM) to investigate the runout of liquefaction-induced flow slide failures. The key inputs to this analysis are the earthquake ground motion, which induces liquefaction, and the post-liquefaction residual strength. The influence of these factors on runout is evaluated by subjecting a model of a tailings dam to thirty different earthquake motions and by assigning different values of post-liquefaction residual strength. Ground motions with larger peak ground accelerations (PGA) generate liquefaction to larger depths, thus mobilizing a greater mass of material and resulting in a flow slide with greater runout. However, different ground motions with the same PGA yield significant variations in the depth of liquefaction, indicating that other ground motion characteristics (e.g., frequency content) also exert significant influence over the initiation of liquefaction. Ground motion characteristics of peak ground velocity (PGV) and Modified Acceleration Spectrum Intensity (MASI) show a strong correlation to the induced depth of liquefaction because they capture both the intensity and frequency content of the earthquake motion. The computed runout is directly related to the depth of liquefaction induced by the earthquake motion. For dam geometry analyzed, measurable runout occurs when liquefaction extends to 10 m depth and the runout is maximized when liquefaction extends to about 18 m. Strain-softening of the residual strength of the liquefied tailings during runout is shown to substantially increase the runout distance of the flow slide, highlighting the need for additional research to better characterize the appropriate strength of liquefied materials during flow failures.</p>
+
+    
+  </div>
+  -->
+  
+</article>
+    
+      
+
+<article class="entry entry">
+  <header class="entry-header">
+    <h3 class="entry-title p-name">
+      <a href="/publications/mpm-fem/">A hybrid Finite Element and Material Point Method for modeling liquefaction-induced tailings dam failures
+</a>
+    </h3>
+  </header>
+  <p class="entry-pub">
+    
+      Sordo, B., Rathje, E., Kumar, K.; 
+    <br />
+    <i></i>
+  </p>
+  <div class="entry-meta">
+    
+    <span class="entry-preprint">
+    PDF: <a href="https://arxiv.org/abs/2412.08040" class="button-preprint-small" target="_blank" rel="noopener noreferrer">https://arxiv.org/abs/2412.08040</a> 
+    </span> 
+    
+    
+    
+    Tags:
+    
+      
+    
+      
+      <a href="http://localhost:4000/tags/#mpm" class="button-tag-small" style="text-decoration:none;">mpm</a> 
+      
+    
+      
+      <a href="http://localhost:4000/tags/#fem" class="button-tag-small" style="text-decoration:none;">fem</a> 
+      
+    
+    
+  </div>
+  
+  
+  <!--
+  <div class="entry-excerpt p-summary">
+    
+    <p>This paper presents a hybrid Finite Element Method (FEM) and Material Point Method (MPM) approach for modeling liquefaction-induced tailings dam failures from initiation through runout. We apply this method to simulate the 1978 Mochikoshi tailings dam failure, which occurred due to seismic loading and liquefaction during an earthquake. Our approach leverages FEM to capture the initial failure mechanism and MPM to simulate the subsequent runout, exploiting the strength of each method in their respective phases of the failure process. We investigate the impact of the FEM-to-MPM transfer time on runout results, identifying an optimal transfer window. This window begins when liquefaction reaches a critical depth to fully trigger the failure and ends before excessive mesh deformation occurs. Our findings demonstrate that the properties of the liquefied tailings significantly influence runout predictions. Notably, we achieve runout distances comparable to the case history only when incorporating additional strain-softening beyond the initial liquefaction-induced strength reduction. Our results demonstrate that the hybrid FEM-MPM method effectively models tailings dam failures associated with complex failure mechanisms and large runouts. This approach offers a promising tool for predicting the runout of seismic liquefaction-induced tailings dam failures, improving risk assessment and mitigation strategies in tailings dam management.</p>
+
+    
+  </div>
+  -->
+  
+</article>
+    
+      
+
+<article class="entry entry">
+  <header class="entry-header">
+    <h3 class="entry-title p-name">
+      <a href="/publications/fem-mpm/">Sequential Hybrid Finite Element and Material Point Method to Simulate Slope Failures
+</a>
+    </h3>
+  </header>
+  <p class="entry-pub">
+    
+      Sordo, B., Rathje, E., Kumar, K.; 
+    <br />
+    <i></i>
+  </p>
+  <div class="entry-meta">
+    
+    <span class="entry-preprint">
+    PDF: <a href="https://arxiv.org/abs/2404.15860" class="button-preprint-small" target="_blank" rel="noopener noreferrer">https://arxiv.org/abs/2404.15860</a> 
+    </span> 
+    
+    
+    
+    Tags:
+    
+      
+    
+      
+      <a href="http://localhost:4000/tags/#mpm" class="button-tag-small" style="text-decoration:none;">mpm</a> 
+      
+    
+      
+      <a href="http://localhost:4000/tags/#fem" class="button-tag-small" style="text-decoration:none;">fem</a> 
+      
+    
+    
+  </div>
+  
+  
+  <!--
+  <div class="entry-excerpt p-summary">
+    
+    <p>Numerical modeling of slope failures seeks to predict two key phenomena: the initiation of failure and the post-failure runout. Currently, most modeling methods for slope failure analysis excel at one of these two but are deficient in the other. For example, the Finite Element Method (FEM) models the initiation of instability well but quickly loses accuracy when modeling large deformations because of mesh distortion, restricting its ability to predict runout. Conversely, the Material Point Method (MPM) utilizes material points which move freely across a background grid, allowing for indefinite deformations without computational issues. However, MPM is restricted in its ability to model slope failure initiation due to limitations of the available boundary conditions and reduced accuracy of its stress distributions. The sequential hybridization of these two methods, initiating a model in FEM and then transferring to MPM, presents an opportunity to accurately capture both initiation and runout by a single model. The exact time for this transfer is not self-apparent, but it must be conducted after the initiation mechanism and before excessive mesh distortion. By simulating two granular column failures and two slope failures, we demonstrate the effectiveness of this hybrid FEM-MPM method and identify the appropriate time to transfer.</p>
+
+    
+  </div>
+  -->
+  
+</article>
+    
+    </div>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <div class="entries-list">
+    
+      
+
+<article class="entry entry">
+  <header class="entry-header">
+    <h3 class="entry-title p-name">
+      <a href="/publications/fem-mpm-tailings-dam/">Modeling liquefaction-induced runout of a tailings dam using a hybrid finite element and material point method approach
+</a>
+    </h3>
+  </header>
+  <p class="entry-pub">
+    
+      Sordo, B., Rathje, E., Kumar, K.; 
+    <br />
+    <i></i>
+  </p>
+  <div class="entry-meta">
+    
+    <span class="entry-preprint">
+    PDF: <a href="https://arxiv.org/abs/2404.15860" class="button-preprint-small" target="_blank" rel="noopener noreferrer">https://arxiv.org/abs/2404.15860</a> 
+    </span> 
+    
+    
+    
+    Tags:
+    
+      
+      <a href="http://localhost:4000/tags/#conference" class="button-tag-small" style="text-decoration:none;">conference</a> 
+      
+    
+      
+      <a href="http://localhost:4000/tags/#mpm" class="button-tag-small" style="text-decoration:none;">mpm</a> 
+      
+    
+      
+      <a href="http://localhost:4000/tags/#fem" class="button-tag-small" style="text-decoration:none;">fem</a> 
+      
+    
+    
+  </div>
+  
+  
+  <!--
+  <div class="entry-excerpt p-summary">
+    
+    <p>Tailings dams impound large amounts of saturated soil which can be highly susceptible to liquefaction. Liquefaction results in a severe loss of strength in the retained soil and potentially failure of the dam. If the dam is breached, a massive debris flow of liquefied soil is then released with potentially disastrous consequences downstream. Numerical models are frequently utilized to predict the liquefaction response of tailings dams and the potential runout,
+and these analyses inform engineering decisions regarding hazard avoidance and mitigation. The Finite Element Method (FEM) is a widespread tool which excels at modeling liquefaction triggering and initial movements, but it quickly loses accuracy when modeling large deformations due to mesh distortion. Conversely, the Material Point Method (MPM), a hybrid Eulerian-Lagrangian method, employs particles that move freely across a background grid and can account for large deformations without losing accuracy. However, issues with the accuracy of MPM’s stress distributions and limits associated with the available boundary conditions impair its ability to predict liquefaction initiation. In this paper, we utilize a sequential hybridization of the FEM and MPM methods as a superior alternative to either individually. To demonstrate the efficacy of this hybrid method to simulate the entire process of tailings dam failures from initiation to runout, we model the 1978 Mochikoshi Tailings Dam failure. In this case, the dam collapsed during the main shaking of an earthquake due to the combined effects of the inertial seismic loading and liquefaction. We initiate this model in FEM to capture the immediate effects of the earthquake: the seismic response and liquefaction triggering. Then, we transfer the model into MPM, inheriting the FEM failure mechanism and capturing the runout behavior without mesh issues. The analysis successfully captures the liquefaction triggering and movements, but underestimates the final runout. Further refinements to the MPM phase of the analysis are required to better capture the large runout response.</p>
+
+    
+  </div>
+  -->
+  
+</article>
+    
+      
+
+<article class="entry entry">
+  <header class="entry-header">
+    <h3 class="entry-title p-name">
+      <a href="/publications/fem-mpm/">Hybrid Finite Element and Material Point Method to simulate granular column collapse from failure initiation to runout
+</a>
+    </h3>
+  </header>
+  <p class="entry-pub">
+    
+      Sordo, B., Rathje, E., Kumar, K.; 
+    <br />
+    <i></i>
+  </p>
+  <div class="entry-meta">
+    
+    <span class="entry-preprint">
+    PDF: <a href="https://arxiv.org/abs/2206.07169" class="button-preprint-small" target="_blank" rel="noopener noreferrer">https://arxiv.org/abs/2206.07169</a> 
+    </span> 
+    
+    
+    
+    Tags:
+    
+      
+      <a href="http://localhost:4000/tags/#conference" class="button-tag-small" style="text-decoration:none;">conference</a> 
+      
+    
+      
+      <a href="http://localhost:4000/tags/#mpm" class="button-tag-small" style="text-decoration:none;">mpm</a> 
+      
+    
+      
+      <a href="http://localhost:4000/tags/#fem" class="button-tag-small" style="text-decoration:none;">fem</a> 
+      
+    
+    
+  </div>
+  
+  
+  <!--
+  <div class="entry-excerpt p-summary">
+    
+    <p>The performance evaluation of a potentially unstable slope involves two key components: the initiation of the slope failure and the post-failure runout. The Finite Element Method (FEM) excels at modeling the initiation of instability but quickly loses accuracy in modeling large-deformation problems due to mesh distortion. Hence, the FEM is unable to accurately model post-failure slope runout. Hybrid Eulerian-Lagrangian methods, such as the Material Point Method (MPM), offer a promising alternative for solving large-deformation problems, because particles can move freely across a background mesh, allowing for large deformation without computational issues. However, the use of moving material points in MPM for integration rather than the fixed Gauss points of the FEM reduces the accuracy of MPM in predicting stress distribution and thus failure initiation. We have created a hybrid method by initiating a failure simulation in FEM and subsequently transferring the coordinates, velocities, and stresses to MPM particles to model the runout behavior, combining the strength of both methods. We demonstrate the capability of the hybrid approach by simulating the collapse of a frictional granular column, comparing it to an empirical solution, and evaluating a suitable time to transfer from FEM to MPM by trialing multiple iterations with transfers at different stages of the collapse.</p>
+
+    
+  </div>
+  -->
+  
+</article>
+    
+    </div>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <div class="entries-list">
+    
+      
+
+<article class="entry entry">
+  <header class="entry-header">
+    <h3 class="entry-title p-name">
+      <a href="/publications/gns/">GNS: A generalizable Graph Neural Network-based simulator for particulate and fluid modeling
+</a>
+    </h3>
+  </header>
+  <p class="entry-pub">
+    
+      Kumar, K., Vantassel, J.; 
+    <br />
+    <i></i>
+  </p>
+  <div class="entry-meta">
+    
+    <span class="entry-preprint">
+    PDF: <a href="https://arxiv.org/abs/2211.10228" class="button-preprint-small" target="_blank" rel="noopener noreferrer">https://arxiv.org/abs/2211.10228</a> 
+    </span> 
+    
+    
+    
+    Tags:
+    
+      
+    
+      
+      <a href="http://localhost:4000/tags/#ml" class="button-tag-small" style="text-decoration:none;">ml</a> 
+      
+    
+      
+      <a href="http://localhost:4000/tags/#gns" class="button-tag-small" style="text-decoration:none;">gns</a> 
+      
+    
+      
+      <a href="http://localhost:4000/tags/#mpm" class="button-tag-small" style="text-decoration:none;">mpm</a> 
+      
+    
+    
+  </div>
+  
+  
+  <!--
+  <div class="entry-excerpt p-summary">
+    
+    <p>We develop a PyTorch-based Graph Network Simulator (GNS) that learns physics and predicts the flow behavior of particulate and fluid systems.  GNS discretizes the domain with nodes representing a collection of material points and the links connecting the nodes representing the local interaction between particles or clusters of particles.  The GNS learns the interaction laws through message passing on the graph.  GNS has three components: (a) Encoder, which embeds particle information to a latent graph, the edges are learned functions; (b) Processor, which allows data propagation and computes the nodal interactions across steps; and (c) Decoder, which extracts the relevant dynamics (e.g., particle acceleration) from the graph.  We introduce physics-inspired simple inductive biases, such as an inertial frame that allows learning algorithms to prioritize one solution (constant gravitational acceleration) over another, reducing learning time.  The GNS implementation uses semi-implicit Euler integration to update the next state based on the predicted accelerations.  GNS trained on trajectory data is generalizable to predict particle kinematics in complex boundary conditions not seen during training.  The trained model accurately predicts within a 5% error of its associated material point method (MPM) simulation.  The predictions are 5,000x faster than traditional MPM simulations (2.5 hours for MPM simulations versus 20 s for GNS simulation of granular flow).  GNS surrogates are popular for solving optimization, control, critical-region prediction for in situ viz, and inverse-type problems. The GNS code is available under the open-source MIT license at https://github.com/geoelements/gns.</p>
+
+    
+  </div>
+  -->
+  
+</article>
+    
+    </div>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <div class="entries-list">
+    
+      
+
+<article class="entry entry">
+  <header class="entry-header">
+    <h3 class="entry-title p-name">
+      <a href="/publications/mpm-galaxy/">In-situ visualization of natural hazards with Galaxy and Material Point Method
+</a>
+    </h3>
+  </header>
+  <p class="entry-pub">
+    
+      Abram, G., Solis, A., Liang, Y., and Kumar, K.; 
+    <br />
+    <i>IEEE Computing in Science &amp; Engineering</i>
+  </p>
+  <div class="entry-meta">
+    
+    <span class="entry-preprint">
+    PDF: <a href="https://arxiv.org/pdf/2109.02754" class="button-preprint-small" target="_blank" rel="noopener noreferrer">https://arxiv.org/pdf/2109.02754</a> 
+    </span> 
+    
+    
+    
+    Tags:
+    
+      
+    
+      
+      <a href="http://localhost:4000/tags/#mpm" class="button-tag-small" style="text-decoration:none;">mpm</a> 
+      
+    
+      
+      <a href="http://localhost:4000/tags/#insitu" class="button-tag-small" style="text-decoration:none;">insitu</a> 
+      
+    
+      
+      <a href="http://localhost:4000/tags/#viz" class="button-tag-small" style="text-decoration:none;">viz</a> 
+      
+    
+    
+  </div>
+  
+  
+  <!--
+  <div class="entry-excerpt p-summary">
+    
+    <p>Visualizing regional-scale landslides is the key to conveying the threat of natural hazards to stakeholders and policymakers. Traditional visualization techniques are restricted to post-processing a limited subset of simulation data and are not scalable to rendering exascale models with billions of particles. In-situ visualization is a technique of rendering simulation data in real-time, i.e., rendering visuals in tandem while the simulation is running. In this study, we develop a scalable N:M interface architecture to visualize regional-scale landslides. We demonstrate the scalability of the architecture by simulating the long runout of the 2014 Oso landslide using the Material Point Method coupled with the Galaxy ray tracing engine rendering 4.2 million material points as spheres. In-situ visualization has an amortized runtime increase of 2\% compared to non-visualized simulations. The developed approach can achieve in-situ visualization of regional-scale landslides with billions of particles with minimal impact on the simulation process.</p>
+
+    
+  </div>
+  -->
+  
+</article>
+    
+    </div>
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+
+  
+    <div class="entries-list">
+    
+      
+
+<article class="entry entry">
+  <header class="entry-header">
+    <h3 class="entry-title p-name">
+      <a href="/publications/thixotropy-concrete-mpm/">Investigating the thixotropic behaviour of tremie concrete using the slump‑flow test and the Material Point Method
+</a>
+    </h3>
+  </header>
+  <p class="entry-pub">
+    
+      Wilkes, C.; 
+    
+      Kumar, K.; 
+    
+      Biscontin, G.; 
+    <br />
+    <i>Concrete Rheology</i>
+  </p>
+  <div class="entry-meta">
+    
+    <span class="entry-preprint">
+    PDF: <a href="https://arxiv.org/abs/2104.11792" class="button-preprint-small" target="_blank" rel="noopener noreferrer">https://arxiv.org/abs/2104.11792</a> 
+    </span> 
+    
+    
+    
+    Tags:
+    
+      
+    
+      
+      <a href="http://localhost:4000/tags/#mpm" class="button-tag-small" style="text-decoration:none;">mpm</a> 
+      
+    
+      
+      <a href="http://localhost:4000/tags/#concrete-flow" class="button-tag-small" style="text-decoration:none;">concrete-flow</a> 
+      
+    
+    
+  </div>
+  
+  
+  <!--
+  <div class="entry-excerpt p-summary">
+    
+    <p>A new thixotropic model is developed integrating the Papanastasiou-Bingham model with thixotropy equations to simulate the flow behaviour of Tremie Concrete in the Material Point Method framework. The effect of thixotropy on the rheological behaviour of fresh concrete is investigated by comparing field measurements with numerical simulations. The comparison yields new insights into a critical and often overlooked behaviour of concrete. A parametric study is performed to understand the effect of model parameters and rest-time on the shear stress response of fresh concrete. The Material Point Method with the Papanastasiou-Bingham model reproduces slump-flow measurements observed in the field. The novel model revealed a decline in concrete workability during the Slump-flow test after a period of rest due to thixotropy, which the physical version of the test fails to capture. This reduction in workability significantly affects the flow behaviour and the effective use of fresh concrete in construction operation.</p>
+
+    
+  </div>
+  -->
+  
+</article>
+    
+    </div>
+  
+
+  
+
+  
+
+  
+    <div class="entries-list">
+    
+      
+
+<article class="entry entry">
+  <header class="entry-header">
+    <h3 class="entry-title p-name">
+      <a href="/publications/large-deformation-modeling-geomechanics/">Large Deformation Modelling in Geomechanics
+</a>
+    </h3>
+  </header>
+  <p class="entry-pub">
+    
+      Kumar, K.; 
+    
+      Soga, K.; 
+    <br />
+    <i>In Geotechnical Design and Practice</i>
+  </p>
+  <div class="entry-meta">
+    
+    <span class="entry-preprint">
+    PDF: <a href="https://arxiv.org/abs/2011.03129" class="button-preprint-small" target="_blank" rel="noopener noreferrer">https://arxiv.org/abs/2011.03129</a> 
+    </span> 
+    
+    
+    
+    Tags:
+    
+      
+      <a href="http://localhost:4000/tags/#mpm" class="button-tag-small" style="text-decoration:none;">mpm</a> 
+      
+    
+      
+      <a href="http://localhost:4000/tags/#hpc" class="button-tag-small" style="text-decoration:none;">hpc</a> 
+      
+    
+      
+    
+    
+  </div>
+  
+  
+  <!--
+  <div class="entry-excerpt p-summary">
+    
+    
+
+    
+  </div>
+  -->
+  
+</article>
+    
+      
+
+<article class="entry entry">
+  <header class="entry-header">
+    <h3 class="entry-title p-name">
+      <a href="/publications/large-deformation-landslide-mpm/">Trends in large‑deformation analysis of landslide mass movements with particular emphasis on the material point method
+</a>
+    </h3>
+  </header>
+  <p class="entry-pub">
+    
+      Soga, K; 
+    
+      Alonso, E; 
+    
+      Yerro, A; 
+    
+      Kumar, K; 
+    
+      Bandara, S.; 
+    <br />
+    <i>Géotechnique, 66(3), 248‑273</i>
+  </p>
+  <div class="entry-meta">
+    
+    <span class="entry-preprint">
+    PDF: <a href="https://arxiv.org/abs/2011.03129" class="button-preprint-small" target="_blank" rel="noopener noreferrer">https://arxiv.org/abs/2011.03129</a> 
+    </span> 
+    
+    
+    
+    Tags:
+    
+      
+      <a href="http://localhost:4000/tags/#mpm" class="button-tag-small" style="text-decoration:none;">mpm</a> 
+      
+    
+      
+      <a href="http://localhost:4000/tags/#hpc" class="button-tag-small" style="text-decoration:none;">hpc</a> 
+      
+    
+      
+    
+    
+  </div>
+  
+  
+  <!--
+  <div class="entry-excerpt p-summary">
+    
+    
+
+    
+  </div>
+  -->
+  
+</article>
+    
+    </div>
+  
+
+  
+
+  
+
+  
+    <div class="entries-list">
+    
+      
+
+<article class="entry entry">
+  <header class="entry-header">
+    <h3 class="entry-title p-name">
+      <a href="/publications/tunnel-heading-collapse-MPM/">Post‑failure behavior of tunnel heading collapse by MPM simulation
+</a>
+    </h3>
+  </header>
+  <p class="entry-pub">
+    
+      Cheng, X.; 
+    
+      Zheng, G.; 
+    
+      Soga, K.; 
+    
+      Bandara, S.; 
+    
+      Kumar, K.; 
+    
+      Diao, Y.; 
+    
+      Xu, J.; 
+    <br />
+    <i>Science China Technological Sciences, 58(12), 2139‑2152.</i>
+  </p>
+  <div class="entry-meta">
+    
+    
+    
+    Tags:
+    
+      
+    
+      
+      <a href="http://localhost:4000/tags/#mpm" class="button-tag-small" style="text-decoration:none;">mpm</a> 
+      
+    
+    
+  </div>
+  
+  
+  <!--
+  <div class="entry-excerpt p-summary">
+    
+    
+
+    
+  </div>
+  -->
+  
+</article>
+    
+    </div>
+  
+
+  
+
+  
+
+  
+
+</div>
+
+
+        
+      </div>
+    </div>
+  </article>
+</main>
+
+  <footer id="footer" class="site-footer"><span class="social-icons"><a class="social-icon" href="https://github.com/geoelements"><i class="fab fa-github-square fa-2x"
+        title="GitHub"></i></a><a class="social-icon" href="/atom.xml"><i class="fas fa-rss-square fa-2x"
+        title="Feed"></i></a></span><span class="copyright">
+    
+    <p>&copy; 2025 Geoelements</p>
+    
+  </span>
+</footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="/assets/js/main.min.js"></script>
+  <script src="https://use.fontawesome.com/releases/v5.0.12/js/all.js"></script>
+<!-- MathJax -->
+
+<script>
+// http://docs.mathjax.org/en/latest/upgrading/v2.html
+MathJax = {
+  tex: {
+      tags: "ams"    // eq numbering options: none, ams, all
+  },
+  options: {
+    renderActions: {
+      // for mathjax 3, handle <script "math/tex"> blocks inserted by kramdown
+      find: [10, function (doc) {
+        for (const node of document.querySelectorAll('script[type^="math/tex"]')) {
+          const display = !!node.type.match(/; *mode=display/);
+          const math = new doc.options.MathItem(node.textContent, doc.inputJax[0], display);
+          const text = document.createTextNode('');
+          node.parentNode.replaceChild(text, node);
+          math.start = {node: text, delim: '', n: 0};
+          math.end = {node: text, delim: '', n: 0};
+          doc.math.push(math);
+        }
+      }, '']
+    }
+  }
+}
+</script>
+
+<script type="text/javascript" id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-svg.js"></script>
+
+</body>
+
+</html>
