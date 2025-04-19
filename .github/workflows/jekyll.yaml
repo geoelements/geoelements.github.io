@@ -1,0 +1,43 @@
+name: Build and deploy Jekyll site
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      
+      - name: Set up Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.2' # You can specify your Ruby version here
+          bundler-cache: true # This will use a cached version of your gems
+      
+      - name: Configure Bundler
+        run: |
+          bundle config set --local path './vendor/bundle'
+          bundle config build.eventmachine --with-ldflags="-Wl,-undefined,dynamic_lookup"
+      
+      - name: Install dependencies
+        run: bundle install
+      
+      - name: Build site
+        run: bundle exec jekyll build
+      
+      - name: Test site
+        run: bundle exec jekyll serve --incremental --detach
+      
+      # Optional: Add a step to deploy to GitHub Pages
+      - name: Deploy to GitHub Pages
+        if: github.ref == 'refs/heads/main'
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./_site
