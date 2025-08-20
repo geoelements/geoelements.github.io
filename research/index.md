@@ -36,8 +36,8 @@ Our research group is dedicated to advancing AI and numerical methods for roboti
     <img src="{{site.url}}/images/geoelements/logo.png" alt="lbm" class="course-image">
     <div class="card-content">
       <div>
-        <h3>Reinforcement Learning & Control</h3>
-        <p>We develop advanced RL algorithms for adaptive robot control in uncertain environments, combining model-based and model-free approaches with differentiable simulation to enable end-to-end learning of complex robotic behaviors.</p>
+        <h3>LBM/DEM: Lattice Boltzmann & Discrete Element Method</h3>
+        <p>The Lattice Boltzmann equation Method (LBM) is a meso-scale fluid solver for modeling grain-scale fluid flow. The Discrete-Element Method (DEM) is coupled with LBM to model particle-fluid interactions at the mesoscale.</p>
       </div>
     </div>
     <a href="{{ site.url }}/research/lbm/" class="launch-button">Discover LBM</a>
