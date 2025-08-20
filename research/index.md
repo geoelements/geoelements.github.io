@@ -6,7 +6,7 @@ collection: projects
 entries_layout: grid
 ---
 
-Our research group is dedicated to exploring advanced numerical methods and innovative techniques that bridge the gap between traditional simulations and modern data-driven approaches. Below are our primary areas of focus:
+Our research group is dedicated to advancing AI and numerical methods for robotics and control. We combine cutting-edge machine learning techniques with physics-based simulations to enable robots to navigate and interact with complex, unstructured environments. Below are our primary areas of focus:
 
 <div class="course-grid"> 
 
@@ -14,8 +14,8 @@ Our research group is dedicated to exploring advanced numerical methods and inno
     <img src="{{site.url}}/images/geoelements/logo.png" alt="sciml" class="course-image">
     <div class="card-content">
       <div>
-        <h3>SciML: Scientific Machine Learning</h3>
-        <p>Our research on SciML focuses on graph network simulators and differentiable programming for solving inverse problems, discovering underlying physics using a data-driven approach, and AI-accelerated simulations.</p>
+        <h3>GNNs & Gaussian Splatting</h3>
+        <p>We leverage Graph Neural Networks for physics-informed learning and dynamics prediction, combined with Gaussian Splatting for real-time 3D scene reconstruction and rendering for enhanced robot perception and planning.</p>
       </div>
     </div>
     <a href="{{ site.url }}/research/sciml/" class="launch-button">Discover SciML</a>
@@ -25,8 +25,8 @@ Our research group is dedicated to exploring advanced numerical methods and inno
     <img src="{{site.url}}/images/geoelements/logo.png" alt="MPM" class="course-image">
     <div class="card-content">
       <div>
-        <h3>MPM: Material Point Method</h3>
-        <p>The Material Point Method (MPM) is a hybrid Eulerian-Lagrangian approach, which uses moving material points and computational nodes on a background mesh. This approach is very effective particularly in the context of large deformations.</p>
+        <h3>MPM for Robot-Environment Interaction</h3>
+        <p>We use the Material Point Method (MPM) to simulate complex robot-environment interactions, including deformable terrain navigation, manipulation of soft materials, and prediction of granular flow dynamics for robotic applications.</p>
       </div>
     </div>
     <a href="{{ site.url }}/research/mpm/" class="launch-button">Discover MPM</a>
@@ -36,8 +36,8 @@ Our research group is dedicated to exploring advanced numerical methods and inno
     <img src="{{site.url}}/images/geoelements/logo.png" alt="lbm" class="course-image">
     <div class="card-content">
       <div>
-        <h3>LBM/DEM: Lattice Boltzmann & Discrete Element Method</h3>
-        <p>The Lattice Boltzmann equation Method (LBM) is a meso-scale fluid solver for modeling grain-scale fluid flow. The Discrete-Element Method (DEM) is coupled with LBM to model soil-fluid interactions at particulate scale.</p>
+        <h3>Reinforcement Learning & Control</h3>
+        <p>We develop advanced RL algorithms for adaptive robot control in uncertain environments, combining model-based and model-free approaches with differentiable simulation to enable end-to-end learning of complex robotic behaviors.</p>
       </div>
     </div>
     <a href="{{ site.url }}/research/lbm/" class="launch-button">Discover LBM</a>
