@@ -8,12 +8,12 @@ authors:
   - "Kumar, K."
   - "Topcu, U."
   - "Drgoňa, J."
-journal: "arXiv preprint arXiv:2511.05757"
+journal: "Learning for Dynamics and Control (L4DC) 2026, Oral"
 categories:
   - publications
 layout: publication
 tags:
-  - journal
+  - conference
   - ml
   - control
   - neural-ode

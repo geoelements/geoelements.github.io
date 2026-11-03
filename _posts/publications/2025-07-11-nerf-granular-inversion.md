@@ -3,12 +3,12 @@ title: "From images to properties: a NeRF-driven framework for granular material
 authors:
   - "Hsiao, C. H."
   - "Kumar, K."
-journal: "arXiv preprint arXiv:2507.09005"
+journal: "Powders and Grains 2025"
 categories:
   - publications
 layout: publication
 tags:
-  - journal
+  - conference
   - ml
   - nerf
   - mpm

@@ -1,7 +1,7 @@
 ---
 title: "Towards scientific machine learning for granular material simulations -- challenges and opportunities"
 authors: "Fransen, M., Fürst, A., Tunuguntla, D., Wilke, D.N., Alkin, B., Barreto, D., Brandstetter, J., Cabrera, M.A., Fan, X., Guo, M., Kieskamp, B., Kumar, K., Morrissey, J., Nuttall, J., Ooi, J., Orozco, L., Papanicolopulos, S.-A., Qu, T., Schott, D., Shuku, T., Sun, W.C., Weinhart, T., Ye, D., Cheng, H."
-journal: 
+journal: "Archives of Computational Methods in Engineering 33, 789-821"
 layout: publication
 categories: 
   - publications
@@ -10,7 +10,7 @@ tags:
   - ml
   
 preprint: https://arxiv.org/abs/2504.08766
-doi: 
+doi: https://doi.org/10.1007/s11831-025-10322-8
 ---
 
 Micro-scale mechanisms, such as inter-particle and particle-fluid interactions, govern the behaviour of granular systems. While particle-scale simulations provide detailed insights into these interactions, their computational cost is often prohibitive. Attended by researchers from both the granular materials (GM) and machine learning (ML) communities, a recent Lorentz Center Workshop on "Machine Learning for Discrete Granular Media" brought the ML community up to date with GM challenges.

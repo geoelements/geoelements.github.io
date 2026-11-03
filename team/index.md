@@ -46,7 +46,7 @@ excerpt: "Geoelements research team"
    <div class="team">
     {% for member in site.data.members %}
       {% if member.role == "student" %}
-        {% if member.position == "PhD candidate" %}
+        {% if member.position contains "PhD" %}
         <div class="user">
           <a href="{{member.url}}"><div class="userimg" style="background-image:url('{{ site.baseurl }}/images/geoelements/team/{{ member.image }}')">
           </div></a>

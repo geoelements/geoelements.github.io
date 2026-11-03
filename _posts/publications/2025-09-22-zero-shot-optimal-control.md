@@ -7,12 +7,12 @@ authors:
   - "Kumar, K."
   - "Osher, S."
   - "Drgoňa, J."
-journal: "arXiv preprint arXiv:2509.18404"
+journal: "American Control Conference (ACC) 2026"
 categories:
   - publications
 layout: publication
 tags:
-  - journal
+  - conference
   - ml
   - control
   - operator-learning

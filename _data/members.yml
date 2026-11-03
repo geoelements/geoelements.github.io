@@ -1,11 +1,11 @@
 # Academics
 - name: Krishna Kumar 
   role: academic
-  position: Assistant Professor
-  uni: UT Austin
+  position: Associate Professor
+  uni: UC Berkeley
   url: /team/krishna-kumar
   image: krishna.jpg
-  email: krishnak@utexas.edu
+  email: k.kumar@berkeley.edu
   pubname: "Kumar, K."
   area: 
     - DEM    
@@ -69,6 +69,27 @@
     - Robotics
     - ML
 
+- name: Su Ann Low
+  role: student
+  position: PhD student
+  uni: UT Austin
+  url: /team/su-ann-low
+  image: question.png
+  pubname: "Low, S. A."
+  area: 
+    - Robotics
+    - ML
+
+- name: Omar Abukassab
+  role: student
+  position: PhD student
+  uni: UT Austin
+  image: question.png
+  pubname: "Abukassab, O."
+  area: 
+    - ML
+    - Landslides
+
 
 #Masters students
 
@@ -85,24 +106,34 @@
     - ML
 
 
-- name: Raghav Pant
+- name: Fuat Furkan Yalcin
   role: student
   position: MS Student
+  uni: UT Austin
+  image: question.png
+  pubname: "Yalcin, F. F."
+  area: 
+    - Offshore
+
+# Visitors
+
+# Alumni
+- name: Raghav Pant
+  role: alumni
+  position: MS
   uni: UT Austin
   url: /team/raghav-pant
   image: question.png
   email: raghav.pant@utexas.edu
   pubname: "Pant, R."
+  year: 2025
   area: 
     - SciML
     - ML
 
-# Visitors
-
-# Alumni
 - name: Brent Sordo
-  role: student
-  position: PhD candidate
+  role: alumni
+  position: PhD
   uni: UT Austin
   url: /team/brent-sordo
   image: question.png

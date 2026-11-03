@@ -22,9 +22,11 @@ layout: default
     </div>
     <div>
       <h3 style="text-align: center;">Latest News</h3>
-      <!-- Get all posts and show the top 3 recent posts -->
+      <!-- Show posts with pinned: true first, then the most recent posts, 3 in total -->
       {% assign all_posts = site.posts | sort: 'date' | reverse %}
-      {% assign recent_posts = all_posts | to_array | slice: 0, 3 %}
+      {% assign pinned_posts = all_posts | where: "pinned", true %}
+      {% assign unpinned_posts = all_posts | where_exp: "post", "post.pinned != true" %}
+      {% assign recent_posts = pinned_posts | concat: unpinned_posts | slice: 0, 3 %}
       <div class="course-grid">
       {% for post in recent_posts %}
       <div class="course-card">
@@ -66,12 +68,12 @@ layout: default
       </div>
       <div class="section">
           <h2>Join Us</h2>
-          <p>We are always on the lookout for passionate and talented individuals who share our vision for advancing engineering through computational sciences. If you are interested in joining our dynamic team, please read the information for <a href="https://www.geoelements.org/wiki/#/prospective-students">prospective candidates</a>.</p>
+          <p>We welcome students and researchers who want to work on physical AI, learned simulation, differentiable control, and robotics. If you are interested in joining the group, please read the information for <a href="https://www.geoelements.org/wiki/#/prospective-students">prospective candidates</a>.</p>
       </div>
       
       <div class="section">
           <h2>Contact Us</h2>
-          <p>For more information about our research group, collaborations, or inquiries, please reach out to <a href="mailto:krishnak@utexas.edu">Prof. Krishna Kumar</a></p>
+          <p>For more information about our research group, collaborations, or inquiries, please reach out to <a href="mailto:k.kumar@berkeley.edu">Prof. Krishna Kumar</a></p>
       </div>
     </div>
   </div>

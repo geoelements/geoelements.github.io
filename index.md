@@ -1,21 +1,22 @@
 ---
 layout: home
 title: Welcome to Geoelements
-excerpt: "AI and Numerical Methods for Robotics and Control"
+excerpt: "Physical AI and computational mechanics"
 ---
 
-Geoelements is an interdisciplinary research group at UT Austin focused on advancing AI and numerical methods for robotics and control. Our research combines cutting-edge techniques including Gaussian Splatting, Graph Neural Networks (GNNs), Material Point Method (MPM), and Reinforcement Learning (RL) to enable robots and autonomous systems to navigate and interact with complex, unstructured environments.
+Geoelements is Krishna Kumar's research group in Civil and Environmental Engineering at UC Berkeley. We develop computational methods that help robots predict and act in unfamiliar physical environments. Our work combines computational mechanics, machine learning, and robotics, with a focus on deformable materials and complex physical interactions.
+
+We infer material behavior from limited observations and use the identified models for fast prediction, planning, and control. The goal is a world model that adapts its predictions as a robot meets new materials and interactions. Applications include construction automation, soft-material manipulation, navigation on deformable terrain, lunar excavation, and natural hazards.
 
 <div class="content-wrapper">
   <div class="image-container">
     <img src="/images/geoelements/geoelements.png" alt="Geoelements Research">
   </div>
   <div class="text-container">
-    <p><b>Gaussian Splatting</b>: 3D scene reconstruction and rendering for robot perception.</p>
-    <p><b>Graph Neural Networks</b>: Physics-informed learning for dynamics prediction and control.</p>
-    <p><b>Material Point Method</b>: High-fidelity simulation of robot-environment interactions.</p>
-    <p><b>Reinforcement Learning</b>: Adaptive control strategies for complex robotic tasks.</p>
-    <p><b>Differentiable Simulation</b>: End-to-end learning through physics simulators.</p>
-    <p><b>XR Visualization</b>: Immersive interfaces for robot teleoperation and training.</p>
+    <p><b>Physics-grounded perception</b>: 3D Gaussian Splatting and weak-form mechanics identify material laws from observed motion.</p>
+    <p><b>Adaptive learned simulators</b>: Graph network simulators and neural operators generalize to unfamiliar materials.</p>
+    <p><b>Differentiable world models and control</b>: Differentiable physics and function encoders support fast planning and online adaptation.</p>
+    <p><b>Embodied autonomy</b>: Physically viable world models guide robotic construction, manipulation, and terrain navigation.</p>
+    <p><b>AI for engineering and natural hazards</b>: Chishiki.ai and DesignSafe provide open research infrastructure.</p>
   </div>
 </div>

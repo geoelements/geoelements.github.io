@@ -19,7 +19,7 @@ remote_theme: mmistakes/so-simple-theme
 
 locale: en-US
 title: "Geoelements"
-description: "AI and Numerical Methods for Robotics and Control at UT Austin"
+description: "Physical AI and computational mechanics at UC Berkeley"
 skin: "/assets/css/skins/default.css"
 baseurl: # the subpath of your site, e.g. "/blog"
 url: # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
