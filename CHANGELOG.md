@@ -13,3 +13,4 @@
 - Add four grants from the CV: TxDOT cost forecasting, Gulf Futures AMERICA, 3D dynamic costmaps, and the Moncrief lunar excavation award.
 - Add a news post on the move to UC Berkeley.
 - Show posts with `pinned: true` first in the home page Latest News, and pin the UC Berkeley news post.
+- Pin the CI build job to `ubuntu-24.04`, since setup-ruby v1.207.0 fails on the Ubuntu 26.04 `ubuntu-latest` image.
